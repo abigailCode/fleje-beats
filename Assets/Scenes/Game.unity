@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.10074612, g: 0.12511952, b: 0.31779543, a: 1}
+  m_IndirectSpecularColor: {r: 0.14639351, g: 0.13617328, b: 0.32628092, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -851,6 +851,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MRTK XR Rig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934052698125135163, guid: 4d7e2f87fefe0ba468719b15288b46e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302893730759227071, guid: 4d7e2f87fefe0ba468719b15288b46e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519543145912274441, guid: 4d7e2f87fefe0ba468719b15288b46e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1684,22 +1699,22 @@ PrefabInstance:
     - target: {fileID: 8465682485468397530, guid: f170fa31612f30442ad7d9cfeaa0c4bd,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9095008394731234656, guid: f170fa31612f30442ad7d9cfeaa0c4bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.044
+      value: 0.041
       objectReference: {fileID: 0}
     - target: {fileID: 9095008394731234656, guid: f170fa31612f30442ad7d9cfeaa0c4bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.03168
+      value: -0.032
       objectReference: {fileID: 0}
     - target: {fileID: 9095008394731234656, guid: f170fa31612f30442ad7d9cfeaa0c4bd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.08943
+      value: -0.089
       objectReference: {fileID: 0}
     - target: {fileID: 9095008394731234656, guid: f170fa31612f30442ad7d9cfeaa0c4bd,
         type: 3}
