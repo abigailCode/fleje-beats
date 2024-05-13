@@ -23,13 +23,14 @@ public class LobbyBoxPool : MonoBehaviour
 
     void Update()
     {
-        if (Time.time >= _nextSpawnTime)
+        /*if (Time.time >= _nextSpawnTime)
            
         {
             InstantiateBox();
             _nextSpawnTime += _spawnInterval;
 
         }
+        */
         
     }
 
@@ -41,8 +42,9 @@ public class LobbyBoxPool : MonoBehaviour
         Quaternion rotation = Quaternion.Euler(0, 180, 0);
         Vector3 spawnPosition = new Vector3(randoms[Random.Range(0,randoms.Length)], 5, randoms[Random.Range(0, randoms.Length)]);
 
-        if (!CheckSeparation(spawnPosition))
+        /*if (!CheckSeparation(spawnPosition))
             return;
+        */
 
         int boxIndex = Random.Range(0, _boxPrefabs.Length);
         Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
@@ -51,7 +53,7 @@ public class LobbyBoxPool : MonoBehaviour
        
     }
 
-    bool CheckSeparation(Vector3 position)
+    /*bool CheckSeparation(Vector3 position)
     {
         foreach (var box in GameObject.FindGameObjectsWithTag("Box"))
         {
@@ -59,7 +61,7 @@ public class LobbyBoxPool : MonoBehaviour
                 return false;
         }
         return true;
-    }
+    }*/
 
     IEnumerator StartSpawning()
     {
@@ -72,6 +74,8 @@ public class LobbyBoxPool : MonoBehaviour
             yield return new WaitForSeconds(_spawnInterval);
             StartCoroutine(StartSpawning());
         }
+
+        else StopAllCoroutines();
     }
 
     IEnumerator StartCountdown()
