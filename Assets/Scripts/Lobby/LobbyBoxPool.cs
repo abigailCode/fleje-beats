@@ -11,14 +11,29 @@ public class LobbyBoxPool : MonoBehaviour
     [SerializeField] float _spawnInterval = 1f; // Intervalo de generación en segundos
     [SerializeField] float _minSeparation = 3f; // Separación mínima entre prefabs
     [SerializeField] float _timer = 10f;
-   // [SerializeField] bool _countdown = false;
+    [SerializeField] TextMesh text;
+
+    // [SerializeField] bool _countdown = false;
     float _nextSpawnTime;
 
     void Start()
     {
+        
+    }
+
+    private void Awake()
+    {
+       
+    }
+
+    private void OnEnable()
+    {
+        _timer = 10f;
         _nextSpawnTime = Time.time;
         StartCoroutine(StartCountdown());
         StartCoroutine(StartSpawning());
+
+
     }
 
     void Update()
@@ -49,8 +64,7 @@ public class LobbyBoxPool : MonoBehaviour
         int boxIndex = Random.Range(0, _boxPrefabs.Length);
         Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
 
-
-       
+   
     }
 
     /*bool CheckSeparation(Vector3 position)
@@ -75,7 +89,11 @@ public class LobbyBoxPool : MonoBehaviour
             StartCoroutine(StartSpawning());
         }
 
-        else StopAllCoroutines();
+        else {
+            this.gameObject.SetActive(false);
+            yield return new WaitForEndOfFrame();
+            StopAllCoroutines();
+        } 
     }
 
     IEnumerator StartCountdown()
@@ -86,6 +104,7 @@ public class LobbyBoxPool : MonoBehaviour
 
             _timer -= Time.deltaTime;
             yield return new WaitForEndOfFrame();
+
 
         }
 
