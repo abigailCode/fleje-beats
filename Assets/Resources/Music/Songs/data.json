@@ -1,0 +1,61 @@
+{
+    "songs": [
+        {
+            "title": "Better Off Alone",
+            "artist": "AliceDJ",
+            "file_name": "betteroffalone/track.mp3",
+            "levels": [
+                {
+                    "level": 1,
+                    "file_name": "betteroffalone/level1.json"
+                },
+                {
+                    "level": 2,
+                    "file_name": "betteroffalone/level2.json"
+                },
+                {
+                    "level": 3,
+                    "file_name": "betteroffalone/level3.json"
+                }
+            ]
+        },
+        {
+            "title": "Song 2",
+            "artist": "Artist 2",
+            "file_name": "song2.mp3",
+            "levels": [
+                {
+                    "level": 1,
+                    "file_name": "song2/song2_level1.json"
+                },
+                {
+                    "level": 2,
+                    "file_name": "song2/song2_level2.json"
+                },
+                {
+                    "level": 3,
+                    "file_name": "song2/song2_level3.json"
+                }
+            ]
+        },
+        {
+            "title": "Song 3",
+            "artist": "Artist 3",
+            "file_name": "song3.mp3",
+            "levels": [
+                {
+                    "level": 1,
+                    "file_name": "song3/song3_level1.json"
+                },
+                {
+                    "level": 2,
+                    "file_name": "song3/song3_level2.json"
+                },
+                {
+                    "level": 3,
+                    "file_name": "song3/song3_level3.json"
+                }
+            ]
+        }
+    ]
+}

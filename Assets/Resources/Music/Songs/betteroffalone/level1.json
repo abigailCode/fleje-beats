@@ -1,0 +1,54 @@
+{
+    "difficulty": 1,
+    "seed": [
+        {
+            "id": 0,
+            "time": 2.262787,
+            "locationY": "Top",
+            "locationX": "Left",
+            "hit": "Bottom"
+        },
+        {
+            "id": 4,
+            "time": 2.262787,
+            "locationY": "Top",
+            "locationX": "Right",
+            "hit": "Bottom"
+        },
+        {
+            "id": 1,
+            "time": 5.566769,
+            "locationY": "Top",
+            "locationX": "Right",
+            "hit": "Left"
+        },
+        {
+            "id": 3,
+            "time": 5.886875,
+            "locationY": "Bottom",
+            "locationX": "Left",
+            "hit": "Right"
+        },
+        {
+            "id": 2,
+            "time": 9.102852,
+            "locationY": "Bottom",
+            "locationX": "Right",
+            "hit": "Top"
+        },
+        {
+            "id": 5,
+            "time": 9.102852,
+            "locationY": "Bottom",
+            "locationX": "Left",
+            "hit": "Top"
+        },
+        {
+            "id": 6,
+            "time": 12.526729,
+            "locationY": "Top",
+            "locationX": "Left",
+            "hit": "Bottom"
+        }
+    ]
+}
