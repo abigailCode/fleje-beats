@@ -2,13 +2,12 @@ using System.IO;
 using UnityEngine;
 
 
-public class SongsReader : MonoBehaviour {
+public class SongsReader {
     string _songsListPath = "Music/Songs/data.json";
-    string dataFilePath;
+    string _dataFilePath;
 
-    void Start() {
-        dataFilePath = Path.Combine(Application.streamingAssetsPath, _songsListPath);
-        ReadSongs();
+    public SongsReader() {
+        _dataFilePath = Path.Combine(Application.streamingAssetsPath, _songsListPath);
     }
 
     //public void SaveData() {
@@ -22,12 +21,12 @@ public class SongsReader : MonoBehaviour {
     //    string jsonData = JsonUtility.ToJson(songDataList, true);
     //    PlayerPrefs.SetString("PlayerList", jsonData);
 
-    //    File.WriteAllText(dataFilePath, jsonData);
+    //    File.WriteAllText(_dataFilePath, jsonData);
     //}
 
     public SongDataList ReadSongs() {
-        if (File.Exists(dataFilePath)) {
-            string jsonData = File.ReadAllText(dataFilePath);
+        if (File.Exists(_dataFilePath)) {
+            string jsonData = File.ReadAllText(_dataFilePath);
             SongDataList songDataList = JsonUtility.FromJson<SongDataList>(jsonData);
             return songDataList;
         }
@@ -37,14 +36,14 @@ public class SongsReader : MonoBehaviour {
     public void SetData(SongDataList songDataList) {
         for (int i = 0; i < songDataList.songData.Count; i++)
         {
-            print(songDataList.songData[i].title);
-            print(songDataList.songData[i].artist);
-            print(songDataList.songData[i].path);
-            print(songDataList.songData[i].duration);
+            Debug.Log(songDataList.songData[i].title);
+            Debug.Log(songDataList.songData[i].artist);
+            Debug.Log(songDataList.songData[i].path);
+            Debug.Log(songDataList.songData[i].duration);
             for (int j = 0; j < songDataList.songData[i].levels.Length; j++)
             {
-                print(songDataList.songData[i].levels[j].level);
-                print(songDataList.songData[i].levels[j].path);
+                Debug.Log(songDataList.songData[i].levels[j].level);
+                Debug.Log(songDataList.songData[i].levels[j].path);
             }
         }
     }
