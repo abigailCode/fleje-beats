@@ -16,7 +16,9 @@ public class Menu : MonoBehaviour
     public void StartGame() {
        // GameManager.instance.ResetState();
         SCManager.instance.LoadScene("Game");
-        //AudioManager.instance.PlayMusic("beat-test");
+
+        //TODO: MODIFY AUDIOMANAGER TO PLAY MUSIC FROM STREAMING ASSETS
+        //AudioManager.instance.PlayMusic(PlayerPrefs.GetString("song.path"));
     }
 
     public void QuitGame() => Application.Quit();

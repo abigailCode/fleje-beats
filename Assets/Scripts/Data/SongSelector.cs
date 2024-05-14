@@ -25,8 +25,9 @@ public class SongSelector : MonoBehaviour {
     }
 
     public void OnClick(SongData song) {
-        PlayerPrefs.SetString("songTitle", song.title);
-        PlayerPrefs.SetString("songPath", song.path);
+        PlayerPrefs.SetString("song.title", song.title);
+        PlayerPrefs.SetString("song.path", song.path);
+        PlayerPrefs.SetInt("song.duration", song.duration);
         levelsPanel.SetActive(true);
         print($"Selected song: {song.title}");
         print($"Selected song path: {song.path}");
@@ -35,7 +36,7 @@ public class SongSelector : MonoBehaviour {
     public void SelectLevel(int level) {
         foreach (SongLevel songLevel in levels) 
             if (songLevel.level == level) 
-                PlayerPrefs.SetString("levelPath", songLevel.path);
+                PlayerPrefs.SetString("song.level.path", songLevel.path);
     }
 
     public void HideLevelPanel() => levelsPanel.SetActive(false);

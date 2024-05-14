@@ -1,7 +1,6 @@
 using System.IO;
 using UnityEngine;
 
-
 public class SongsReader {
     string _songsListPath = "Music/Songs/data.json";
     string _dataFilePath;

@@ -7,10 +7,11 @@ public class LevelConfReader {
     string _dataFilePath;
 
     public LevelConfReader() {
-        _dataFilePath = Path.Combine(Application.streamingAssetsPath, _songsListPath, PlayerPrefs.GetString("songLevel.path"));
+        _dataFilePath = Path.Combine(Application.streamingAssetsPath, _songsListPath, PlayerPrefs.GetString("song.level.path"));
+        Debug.Log(_dataFilePath);
     }
 
-    public SongLevelConfiguration ReadSongs() {
+    public SongLevelConfiguration ReadConf() {
         if (File.Exists(_dataFilePath)) {
             string jsonData = File.ReadAllText(_dataFilePath);
             SongLevelConfiguration songLevelConfiguration = JsonUtility.FromJson<SongLevelConfiguration>(jsonData);
