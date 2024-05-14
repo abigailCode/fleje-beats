@@ -37,16 +37,7 @@ public class LobbyButton : MonoBehaviour
 
     }
 
-    private void onNeeekeri()
-    {
-        if (_timer > 0f)
-        {
 
-            text.text = "well";
-            text.fontSize = 18;
-
-        }
-    }
 
 
 

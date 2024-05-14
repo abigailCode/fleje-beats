@@ -245,6 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BoxPool: {fileID: 316180448}
   text: {fileID: 398318720}
+  _timer: 10
 --- !u!4 &192121562 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5870931076965904816, guid: 4d7e2f87fefe0ba468719b15288b46e7,
@@ -620,6 +621,7 @@ MonoBehaviour:
   _spawnInterval: 1
   _minSeparation: 3
   _timer: 10
+  text: {fileID: 0}
 --- !u!4 &316180450
 Transform:
   m_ObjectHideFlags: 0
