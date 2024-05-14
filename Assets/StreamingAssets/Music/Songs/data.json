@@ -1,59 +1,62 @@
 {
-    "songs": [
+    "songData": [
         {
             "title": "Better Off Alone",
             "artist": "AliceDJ",
-            "file_name": "betteroffalone/track.mp3",
+            "path": "betteroffalone/track.mp3",
+            "duration": 174,
             "levels": [
                 {
                     "level": 1,
-                    "file_name": "betteroffalone/level1.json"
+                    "path": "betteroffalone/level1.json"
                 },
                 {
                     "level": 2,
-                    "file_name": "betteroffalone/level2.json"
+                    "path": "betteroffalone/level2.json"
                 },
                 {
                     "level": 3,
-                    "file_name": "betteroffalone/level3.json"
+                    "path": "betteroffalone/level3.json"
                 }
             ]
         },
         {
             "title": "Song 2",
             "artist": "Artist 2",
-            "file_name": "song2.mp3",
+            "path": "song2.mp3",
+            "duration": 130,
             "levels": [
                 {
                     "level": 1,
-                    "file_name": "song2/song2_level1.json"
+                    "path": "song2/song2_level1.json"
                 },
                 {
                     "level": 2,
-                    "file_name": "song2/song2_level2.json"
+                    "path": "song2/song2_level2.json"
                 },
                 {
                     "level": 3,
-                    "file_name": "song2/song2_level3.json"
+                    "path": "song2/song2_level3.json"
                 }
             ]
         },
         {
             "title": "Song 3",
             "artist": "Artist 3",
-            "file_name": "song3.mp3",
+            "path": "song3.mp3",
+            "duration": 70,
             "levels": [
                 {
                     "level": 1,
-                    "file_name": "song3/song3_level1.json"
+                    "path": "song3/song3_level1.json"
                 },
                 {
                     "level": 2,
-                    "file_name": "song3/song3_level2.json"
+                    "path": "song3/song3_level2.json"
                 },
                 {
                     "level": 3,
-                    "file_name": "song3/song3_level3.json"
+                    "path": "song3/song3_level3.json"
                 }
             ]
         }

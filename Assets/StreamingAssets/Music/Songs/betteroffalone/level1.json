@@ -1,6 +1,5 @@
 {
-    "difficulty": 1,
-    "seed": [
+    "songLevelConguration": [
         {
             "id": 0,
             "time": 2.262787,

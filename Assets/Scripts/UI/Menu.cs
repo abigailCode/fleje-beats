@@ -10,7 +10,7 @@ public class Menu : MonoBehaviour
 
     void Start()
     {
-        AudioManager.instance.PlayMusic("menu");
+        //AudioManager.instance.PlayMusic("menu");
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
