@@ -33,10 +33,10 @@ public class SongSelector : MonoBehaviour {
     }
 
     public void SelectLevel(int level) {
-        foreach (SongLevel songLevel in levels) if (songLevel.level == level) PlayerPrefs.SetString("levelPath", songLevel.path);
+        foreach (SongLevel songLevel in levels) 
+            if (songLevel.level == level) 
+                PlayerPrefs.SetString("levelPath", songLevel.path);
     }
 
-    public void HideLevelPanel() {
-        levelsPanel.SetActive(false);
-    }
+    public void HideLevelPanel() => levelsPanel.SetActive(false);
 }
