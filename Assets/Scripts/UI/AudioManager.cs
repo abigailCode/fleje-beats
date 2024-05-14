@@ -58,7 +58,7 @@ public class AudioManager : MonoBehaviour
         // Los recursos (ASSETS) que se cargan en TIEMPO DE EJECUCI�N DEBEN ESTAR DENTRO de una carpeta denominada /Assets/Resources/Music
         musicClips["ambient"] = Resources.Load<AudioClip>("Music/Ambient_Theme");
         musicClips["menu"] = Resources.Load<AudioClip>("Music/menu");
-        musicClips["beat-test"] = Resources.Load<AudioClip>("Music/beat-test");
+        musicClips["beat-test"] = Resources.Load<AudioClip>("Music/Songs/beat-test/beat-test");
         musicClips["gameover"] = Resources.Load<AudioClip>("Music/game_over");
         musicClips["intro"] = Resources.Load<AudioClip>("Music/intro");
     }
