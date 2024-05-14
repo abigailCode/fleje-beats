@@ -31,11 +31,11 @@ namespace Fusion.Addons.ConnectionManagerAddon
         }
 
         [Header("Room configuration")]
-        public GameMode gameMode = GameMode.Shared;
-        public string roomName = "SampleFusion";
+        public GameMode gameMode = GameMode.Host;
+        public string roomName = "Room1";
         public bool connectOnStart = true;
         [Tooltip("Set it to 0 to use the DefaultPlayers value, from the Global NetworkProjectConfig (simulation section)")]
-        public int playerCount = 0;
+        public int playerCount = 2;
 
         [Header("Room selection criteria")]
         public ConnectionCriterias connectionCriterias = ConnectionCriterias.RoomName;
@@ -137,38 +137,15 @@ namespace Fusion.Addons.ConnectionManagerAddon
             // Start or join (depends on gamemode) a session with a specific name
             var args = new StartGameArgs()
             {
-                GameMode = gameMode,
+                GameMode = GameMode.Shared,
                 Scene = CurrentSceneInfo(),
                 SceneManager = sceneManager
             };
-            // Connection criteria
-            if (ShouldConnectWithRoomName)
-            {
-                args.SessionName = roomName;
-            }
-            if (ShouldConnectWithSessionProperties)
-            {
-                args.SessionProperties = AllConnectionSessionProperties;
-            }
-            // Room details
-            if (playerCount > 0)
-            {
-                args.PlayerCount = playerCount;
-            }
+
+            // Connexion criteria (note: actual project code contains alternative options)
+            args.SessionName = roomName;
 
             await runner.StartGame(args);
-
-            string prop = "";
-            if (runner.SessionInfo.Properties != null && runner.SessionInfo.Properties.Count > 0)
-            {
-                prop = "SessionProperties: ";
-                foreach (var p in runner.SessionInfo.Properties) prop += $" ({p.Key}={p.Value.PropertyValue}) ";
-            }
-            Debug.Log($"Session info: Room name {runner.SessionInfo.Name}. Region: {runner.SessionInfo.Region}. {prop}");
-            if ((connectionCriterias & ConnectionManager.ConnectionCriterias.RoomName) == 0)
-            {
-                roomName = runner.SessionInfo.Name;
-            }
         }
 
         #region Player spawn
