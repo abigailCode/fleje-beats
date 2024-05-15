@@ -8,7 +8,6 @@ public class LevelConfReader {
 
     public LevelConfReader() {
         _dataFilePath = Path.Combine(Application.streamingAssetsPath, _songsListPath, PlayerPrefs.GetString("song.level.path"));
-        Debug.Log(_dataFilePath);
     }
 
     public SongLevelConfiguration ReadConf() {
@@ -21,6 +20,7 @@ public class LevelConfReader {
     }
 
     public void SetData(SongLevelConfiguration songLevelConfiguration) {
+        Debug.Log(songLevelConfiguration.beatData);
         for (int i = 0; i < songLevelConfiguration.beatData.Count; i++) {
             Debug.Log(songLevelConfiguration.beatData[i].id);
             Debug.Log(songLevelConfiguration.beatData[i].time);
