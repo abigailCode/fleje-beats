@@ -11,12 +11,7 @@ public class Score : MonoBehaviour {
         UpdateScore();
     }
 
-    void UpdateScore(int score = 0) {
-        _scoreText.text =  score + " Points";
-        Debug.Log($"Current score: {score}");
-    }
-
-    void IncreaseScore() { UpdateScore(++score); }
-
+    void UpdateScore(int score = 0) => _scoreText.text =  score + " Points";
+    void IncreaseScore() => UpdateScore(++score);
     void DecreaseScore() { if (score > 0) UpdateScore(--score); }
 }

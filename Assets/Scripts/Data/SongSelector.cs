@@ -20,7 +20,6 @@ public class SongSelector : MonoBehaviour {
 
             songButton.transform.GetComponentInChildren<TMP_Text>().text = $"{songData.title} by {songData.artist}";
             songButton.GetComponent<PressableButton>().OnClicked.AddListener(() => OnClick(songData));
-            levels = songData.levels;
         }
     }
 
@@ -28,9 +27,8 @@ public class SongSelector : MonoBehaviour {
         PlayerPrefs.SetString("song.title", song.title);
         PlayerPrefs.SetString("song.path", song.path);
         PlayerPrefs.SetInt("song.duration", song.duration);
+        levels = song.levels;
         levelsPanel.SetActive(true);
-        print($"Selected song: {song.title}");
-        print($"Selected song path: {song.path}");
     }
 
     public void SelectLevel(int level) {
