@@ -17,13 +17,14 @@ public class BoxesPool : MonoBehaviour {
 
     IEnumerator EndLevel() {
         yield return new WaitForSeconds(PlayerPrefs.GetInt("song.duration"));
-        //SCManager.instance.LoadScene("Ranking");
+        SCManager.instance.LoadScene("Menu");
         AudioManager.instance.UnloadSong();
     }
 
     IEnumerator SpawnBoxes2(List<SongBeat> _beatData) {
         float oldTime = 0;
         foreach (SongBeat beat in _beatData) {
+            if (beat.time + _spawnDelay >= PlayerPrefs.GetInt("song.duration")) break;
             yield return new WaitForSeconds(beat.time + _spawnDelay - oldTime);
             oldTime = beat.time + _spawnDelay;
             InstantiateBox2(beat);
@@ -113,16 +114,13 @@ public class BoxesPool : MonoBehaviour {
             case 1:
                 hitbox.localPosition = new Vector3(0.001f, 0.002f, -0.004f);
                 hitbox.rotation = Quaternion.Euler(0f, 0f, 90f);
-                Debug.Log("Izquierda (hitbox a la derecha)");
                 break;
             case 2:
                 hitbox.localPosition = new Vector3(0f, 0.004f, -0.121f);
-                Debug.Log("Arriba (hitbox abajo)");
                 break;
             case 3:
                 hitbox.localPosition = new Vector3(0.689f, 0.002f, -0.004f);
                 hitbox.rotation = Quaternion.Euler(0f, 0f, 90f);
-                Debug.Log("Derecha (hitbox a la izquierda)");
                 break;
         }
     }

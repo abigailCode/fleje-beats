@@ -40,14 +40,12 @@ public class SongDataList {
 
 [Serializable]
 public class SongBeat {
-    public int id;
     public float time;
     public string locationY;
     public string locationX;
     public string hit;
 
-    public SongBeat(int id, float time, string locationY, string locationX, string hit) {
-        this.id = id;
+    public SongBeat(float time, string locationY, string locationX, string hit) {
         this.time = time;
         this.locationY = locationY;
         this.locationX = locationX;
