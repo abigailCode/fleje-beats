@@ -7,7 +7,10 @@ public class LevelConfReader {
     string _dataFilePath;
 
     public LevelConfReader() {
-        _dataFilePath = Path.Combine(Application.streamingAssetsPath, _songsListPath, PlayerPrefs.GetString("song.level.path"));
+        string absoluteAssetsPath = Application.dataPath;
+        string projectFolderPath = absoluteAssetsPath.Substring(0, absoluteAssetsPath.Length - "Assets".Length);
+        string resourcesFolderPath = Path.Combine(projectFolderPath, "Assets/Resources");
+        _dataFilePath = Path.Combine(resourcesFolderPath, _songsListPath, PlayerPrefs.GetString("song.level.path"));
     }
 
     public SongLevelConfiguration ReadConf() {

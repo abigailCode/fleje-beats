@@ -6,7 +6,7 @@ public class Menu : MonoBehaviour
    // public GameObject SettingsPanel;
 
     void Start() {
-        //AudioManager.instance.PlayMusic("menu");
+        AudioManager.instance.PlayMusic("menu");
     }
 
     public void Test() {
@@ -16,14 +16,11 @@ public class Menu : MonoBehaviour
     public void StartGame() {
        // GameManager.instance.ResetState();
         SCManager.instance.LoadScene("Game");
-
-        //TODO: MODIFY AUDIOMANAGER TO PLAY MUSIC FROM STREAMING ASSETS
-        //AudioManager.instance.PlayMusic(PlayerPrefs.GetString("song.path"));
+        AudioManager.instance.PlaySong();
     }
 
     public void QuitGame() => Application.Quit();
 
-    //CREDITS
     public void ShowCredits() => CreditsPanel.SetActive(true);
 
     public void HideCredits() => CreditsPanel.SetActive(false);

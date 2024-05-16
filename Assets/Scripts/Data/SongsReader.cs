@@ -6,7 +6,10 @@ public class SongsReader {
     string _dataFilePath;
 
     public SongsReader() {
-        _dataFilePath = Path.Combine(Application.streamingAssetsPath, _songsListPath);
+        string absoluteAssetsPath = Application.dataPath;
+        string projectFolderPath = absoluteAssetsPath.Substring(0, absoluteAssetsPath.Length - "Assets".Length);
+        string resourcesFolderPath = Path.Combine(projectFolderPath, "Assets/Resources");
+        _dataFilePath = Path.Combine(resourcesFolderPath, _songsListPath);
     }
 
     //public void SaveData() {

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SongSelector : MonoBehaviour {
 
+    [SerializeField] GameObject _songButton;
     [SerializeField] GameObject levelsPanel;
     SongLevel[] levels;
 
@@ -15,7 +16,7 @@ public class SongSelector : MonoBehaviour {
         SongDataList songDataList = new SongsReader().ReadSongs();
 
         foreach (SongData songData in songDataList.songData) {
-            GameObject songButton = Instantiate(Resources.Load("Prefabs/SongButton")) as GameObject;
+            GameObject songButton = Instantiate(_songButton);
             songButton.transform.SetParent(gameObject.transform, false);
 
             songButton.transform.GetComponentInChildren<TMP_Text>().text = $"{songData.title} by {songData.artist}";

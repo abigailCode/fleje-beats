@@ -23,6 +23,8 @@ public class BoxesPool : MonoBehaviour {
             yield return new WaitForSeconds(beat.time + _spawnDelay);
             InstantiateBox2(beat);
         }
+        //SCManager.instance.LoadScene("Ranking");
+        AudioManager.instance.UnloadSong();
     }
 
     //IEnumerator SpawnBoxes() {

@@ -4531,6 +4531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d836b6da20f7c274fb3896e67c88e7c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _songButton: {fileID: 8140142773499600341, guid: 75397234929ef1f409ae632bfb5f570d,
+    type: 3}
   levelsPanel: {fileID: 1019922181}
 --- !u!1 &1841186893
 GameObject:
