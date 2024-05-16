@@ -7,26 +7,27 @@ public class BoxesPool : MonoBehaviour {
     [SerializeField] float _boxSpeed = 10f;
     float _rotationSpeed = 100f;
     float _spawnDelay = 4.5f;
-    //float[] _spawnRates;
-    int _songDuration;
 
-    //TODO: FIX LAST BOXES (LAST 4.5 SECONDS)
     void Start() {
-        _songDuration = PlayerPrefs.GetInt("song.duration");
         SongLevelConfiguration _levelConf = new LevelConfReader().ReadConf();
         AudioManager.instance.PlaySong();
         StartCoroutine(SpawnBoxes2(_levelConf.beatData));
+        StartCoroutine(EndLevel());
     }
+
+    IEnumerator EndLevel() {
+        yield return PlayerPrefs.GetInt("song.duration");
+        //SCManager.instance.LoadScene("Ranking");
+        AudioManager.instance.UnloadSong();
+    }
+
     IEnumerator SpawnBoxes2(List<SongBeat> _beatData) {
         float oldTime = 0;
         foreach (SongBeat beat in _beatData) {
-            if (beat.time + _spawnDelay > _songDuration) break;
             yield return new WaitForSeconds(beat.time + _spawnDelay - oldTime);
-            oldTime = beat.time;
+            oldTime = beat.time + _spawnDelay;
             InstantiateBox2(beat);
         }
-        //SCManager.instance.LoadScene("Ranking");
-        AudioManager.instance.UnloadSong();
     }
 
     float GetLocation(string location, string type) {

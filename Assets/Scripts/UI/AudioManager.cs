@@ -51,7 +51,9 @@ public class AudioManager : MonoBehaviour {
         if (PlayerPrefs.GetString("song.path") == null) Debug.LogError("Could not find song path");
         else {
             string songPath = Path.Combine("Music", "Songs", PlayerPrefs.GetString("song.path"));
-            musicSource.clip = Resources.Load<AudioClip>(songPath);
+
+            _loadedAudioClip = Resources.Load<AudioClip>(songPath);
+            musicSource.clip = _loadedAudioClip;
             musicSource.Play();
         }
     }
