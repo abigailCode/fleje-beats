@@ -3,7 +3,7 @@
         {
             "title": "Better Off Alone",
             "artist": "AliceDJ",
-            "path": "betteroffalone/track.mp3",
+            "path": "betteroffalone/track",
             "duration": 174,
             "levels": [
                 {
@@ -23,7 +23,7 @@
         {
             "title": "Song 2",
             "artist": "Artist 2",
-            "path": "song2.mp3",
+            "path": "song2",
             "duration": 130,
             "levels": [
                 {
@@ -43,7 +43,7 @@
         {
             "title": "Song 3",
             "artist": "Artist 3",
-            "path": "song3.mp3",
+            "path": "song3",
             "duration": 70,
             "levels": [
                 {

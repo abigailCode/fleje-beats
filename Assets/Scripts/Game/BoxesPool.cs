@@ -14,6 +14,7 @@ public class BoxesPool : MonoBehaviour {
     void Start() {
         _songDuration = PlayerPrefs.GetInt("song.duration");
         SongLevelConfiguration _levelConf = new LevelConfReader().ReadConf();
+        AudioManager.instance.PlaySong();
         StartCoroutine(SpawnBoxes2(_levelConf.beatData));
         //StartCoroutine(SpawnBoxes());
     }

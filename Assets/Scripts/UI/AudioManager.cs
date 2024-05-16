@@ -1,7 +1,6 @@
 using System.IO;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
 using System.Collections;
 
 public class AudioManager : MonoBehaviour {
@@ -49,29 +48,12 @@ public class AudioManager : MonoBehaviour {
     }
 
     public void PlaySong() {
-        if (PlayerPrefs.GetString("song.path") != null) StartCoroutine(LoadSong());
-        else Debug.LogError("Could not find song path");
-    }
-
-    IEnumerator LoadSong() {
-        string songPath = Path.Combine("Music", "Songs", PlayerPrefs.GetString("song.path"));
-        Debug.Log(songPath);
-
-        // Load the song asynchronously with memory loading type
-        ResourceRequest request = Resources.LoadAsync<AudioClip>(songPath);
-
-        // Wait until the song is fully loaded
-        yield return request;
-        Debug.Log(request.asset.name);
-
-        // Assign the loaded audio clip to the AudioSource component
-        _loadedAudioClip = request.asset as AudioClip;
-        Debug.Log(_loadedAudioClip);
-
-        musicSource.clip = _loadedAudioClip;
-        musicSource.Play();
-        Debug.Log(musicSource.isPlaying);
-        GameObject.Find("BoxesSpawn").GetComponent<BoxesPool>().enabled = true; // Activate BoxesPool after loading the song in memory
+        if (PlayerPrefs.GetString("song.path") == null) Debug.LogError("Could not find song path");
+        else {
+            string songPath = Path.Combine("Music", "Songs", PlayerPrefs.GetString("song.path"));
+            musicSource.clip = Resources.Load<AudioClip>(songPath);
+            musicSource.Play();
+        }
     }
 
     public void UnloadSong() {
