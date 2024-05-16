@@ -16,29 +16,18 @@ public class BoxesPool : MonoBehaviour {
         SongLevelConfiguration _levelConf = new LevelConfReader().ReadConf();
         AudioManager.instance.PlaySong();
         StartCoroutine(SpawnBoxes2(_levelConf.beatData));
-        //StartCoroutine(SpawnBoxes());
     }
     IEnumerator SpawnBoxes2(List<SongBeat> _beatData) {
+        float oldTime = 0;
         foreach (SongBeat beat in _beatData) {
             if (beat.time + _spawnDelay > _songDuration) break;
-            yield return new WaitForSeconds(beat.time + _spawnDelay);
+            yield return new WaitForSeconds(beat.time + _spawnDelay - oldTime);
+            oldTime = beat.time;
             InstantiateBox2(beat);
         }
         //SCManager.instance.LoadScene("Ranking");
         AudioManager.instance.UnloadSong();
     }
-
-    //IEnumerator SpawnBoxes() {
-    //    float timeTotal = -_spawnDelay;
-    //    for (int i = 0; i < _spawnRates.Length; i++) {
-    //        timeTotal -= _spawnRates[i];
-    //        Debug.Log($"Time total: {timeTotal}");
-    //        Debug.Log($"Spawn rate: {_spawnRates[i]}");
-    //        if (i > 0) timeTotal -= _spawnRates[i - 1];
-    //        yield return new WaitForSeconds(timeTotal);
-    //        Invoke("InstantiateBox", _spawnRates[i]);
-    //    }
-    //}
 
     float GetLocation(string location, string type) {
         // X Direction
@@ -69,13 +58,13 @@ public class BoxesPool : MonoBehaviour {
 
         switch(location) {
             case "Left":
-                rotation *= 90;
+                rotation = 1;
                 break;
-            case "Top":
-                rotation *= 180;
+            case "Bottom":
+                rotation = 2;
                 break;
             case "Right":
-                rotation *= 270;
+                rotation = 3;
                 break;
         }
         return rotation;
@@ -100,25 +89,6 @@ public class BoxesPool : MonoBehaviour {
         Rigidbody rb = box.GetComponent<Rigidbody>();
         rb.velocity = -Vector3.forward * _boxSpeed;
     }
-
-    ////void InstantiateBox() {
-
-    ////    float randomX = Random.Range(-0.39f, 0.4560112f);
-
-    ////    Vector3 spawnPosition = new Vector3(randomX, transform.position.y, transform.position.z);
-
-    ////    //! The box model needs to be rotated 180 degrees on the Y axis
-    ////    Quaternion rotation = Quaternion.Euler(0, 180, 0);
-
-    ////    int boxIndex = Random.Range(0, _boxPrefabs.Length);
-
-    ////    GameObject box = Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
-      
-    ////    StartCoroutine(Rotate(box));
-
-    ////    Rigidbody rb = box.GetComponent<Rigidbody>();
-    ////    rb.velocity = -Vector3.forward * _boxSpeed;
-    ////}
 
     IEnumerator Rotate(GameObject box, int direction) {
         RotateHitbox(box, direction);
