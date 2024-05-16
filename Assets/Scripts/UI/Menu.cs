@@ -15,8 +15,7 @@ public class Menu : MonoBehaviour
 
     public void StartGame() {
        // GameManager.instance.ResetState();
-        SCManager.instance.LoadScene("Game");
-        AudioManager.instance.PlaySong();
+        SCManager.instance.LoadScene("GameWip");
     }
 
     public void QuitGame() => Application.Quit();
