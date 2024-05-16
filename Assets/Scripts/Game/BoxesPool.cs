@@ -16,7 +16,7 @@ public class BoxesPool : MonoBehaviour {
     }
 
     IEnumerator EndLevel() {
-        yield return PlayerPrefs.GetInt("song.duration");
+        yield return new WaitForSeconds(PlayerPrefs.GetInt("song.duration"));
         //SCManager.instance.LoadScene("Ranking");
         AudioManager.instance.UnloadSong();
     }
