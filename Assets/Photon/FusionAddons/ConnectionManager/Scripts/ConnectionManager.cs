@@ -1,3 +1,4 @@
+using Fusion;
 using Fusion.Sockets;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace Fusion.Addons.ConnectionManagerAddon
      **/
     public class ConnectionManager : MonoBehaviour, INetworkRunnerCallbacks
     {
+        public GameObject leftHand, rightHand, headset;
         [System.Flags]
         public enum ConnectionCriterias
         {
@@ -29,7 +31,6 @@ namespace Fusion.Addons.ConnectionManagerAddon
             public string propertyName;
             public string value;
         }
-
         [Header("Room configuration")]
         public GameMode gameMode = GameMode.Host;
         public string roomName = "Room1";
@@ -190,7 +191,7 @@ namespace Fusion.Addons.ConnectionManagerAddon
         #region INetworkRunnerCallbacks
         public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
         {
-            if(runner.Topology == Topologies.ClientServer)
+            if (runner.Topology == Topologies.ClientServer)
             {
                 OnPlayerJoinedHostMode(runner, player);
             }
@@ -217,16 +218,124 @@ namespace Fusion.Addons.ConnectionManagerAddon
             Debug.Log("Shutdown: " + shutdownReason);
         }
         public void OnDisconnectedFromServer(NetworkRunner runner, NetDisconnectReason reason) {
-            Debug.Log("OnDisconnectedFromServer: "+ reason);
+            Debug.Log("OnDisconnectedFromServer: " + reason);
         }
         public void OnConnectFailed(NetworkRunner runner, NetAddress remoteAddress, NetConnectFailedReason reason) {
             Debug.Log("OnConnectFailed: " + reason);
         }
         #endregion
 
-        #region Unused INetworkRunnerCallbacks 
+        #region INetworkRunnerCallbacks 
 
-        public void OnInput(NetworkRunner runner, NetworkInput input) { }
+        public struct RigInput : INetworkInput
+        {
+            public Vector3 playAreaPosition;
+            public Quaternion playAreaRotation;
+            public Vector3 leftHandPosition;
+            public Quaternion leftHandRotation;
+            public Vector3 rightHandPosition;
+            public Quaternion rightHandRotation;
+            public Vector3 headsetPosition;
+            public Quaternion headsetRotation;
+            public HandCommand leftHandCommand;
+            public HandCommand rightHandCommand;
+
+        }
+        public void OnInput(NetworkRunner runner, NetworkInput input)
+        {
+            RigInput rigInput = new RigInput();
+            rigInput.playAreaPosition = transform.position;
+            rigInput.playAreaRotation = transform.rotation;
+
+            rigInput.leftHandPosition = leftHand.transform.position;
+            rigInput.leftHandRotation = leftHand.transform.rotation;
+            rigInput.rightHandPosition = rightHand.transform.position;
+            rigInput.rightHandRotation = rightHand.transform.rotation;
+            rigInput.headsetPosition = headset.transform.position;
+            rigInput.headsetRotation = headset.transform.rotation;
+
+            input.Set(rigInput);
+        }
+
+        public void OnObjectExitAOI(NetworkRunner runner, NetworkObject obj, PlayerRef player)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnObjectEnterAOI(NetworkRunner runner, NetworkObject obj, PlayerRef player)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnConnectRequest(NetworkRunner runner, NetworkRunnerCallbackArgs.ConnectRequest request, byte[] token)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnUserSimulationMessage(NetworkRunner runner, SimulationMessagePtr message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnSessionListUpdated(NetworkRunner runner, List<SessionInfo> sessionList)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnCustomAuthenticationResponse(NetworkRunner runner, Dictionary<string, object> data)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnHostMigration(NetworkRunner runner, HostMigrationToken hostMigrationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnReliableDataReceived(NetworkRunner runner, PlayerRef player, ReliableKey key, ArraySegment<byte> data)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnReliableDataProgress(NetworkRunner runner, PlayerRef player, ReliableKey key, float progress)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnSceneLoadDone(NetworkRunner runner)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnSceneLoadStart(NetworkRunner runner)
+        {
+            throw new NotImplementedException();
+        }
+
+        /*
+        public override void Render()
+        {
+            base.Render();
+            if (IsLocalNetworkRig)
+            {
+                // Extrapolate for local user:
+                // we want to have the visual at the good position as soon as possible, so we force the visuals to follow the most fresh hardware positions
+                // To update the visual object, and not the actual networked position, we move the interpolation targets
+                transform.position = hardwareRig.transform.position;
+                transform.rotation = hardwareRig.transform.rotation;
+                leftHand.transform.position = hardwareRig.leftHand.transform.position;
+                leftHand.transform.rotation = hardwareRig.leftHand.transform.rotation;
+                rightHand.transform.position = hardwareRig.rightHand.transform.position;
+                rightHand.transform.rotation = hardwareRig.rightHand.transform.rotation;
+                headset.transform.position = hardwareRig.headset.transform.position;
+                headset.transform.rotation = hardwareRig.headset.transform.rotation;
+            }
+        }
         public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input) { }
         public void OnConnectRequest(NetworkRunner runner, NetworkRunnerCallbackArgs.ConnectRequest request, byte[] token) { }
         public void OnUserSimulationMessage(NetworkRunner runner, SimulationMessagePtr message) { }
@@ -242,5 +351,42 @@ namespace Fusion.Addons.ConnectionManagerAddon
         public void OnReliableDataProgress(NetworkRunner runner, PlayerRef player, ReliableKey key, float progress) { }
         #endregion
     }
+        */
+    }
 
+
+    public class NetworkHeadset : NetworkBehaviour
+    {
+        [HideInInspector]
+        public NetworkTransform networkTransform;
+        private void Awake()
+        {
+            if (networkTransform == null) networkTransform = GetComponent<NetworkTransform>();
+        }
+    }
+
+    // Structure representing the inputs driving a hand pose
+    [System.Serializable]
+    public struct HandCommand : INetworkStruct
+    {
+        public float thumbTouchedCommand;
+        public float indexTouchedCommand;
+        public float gripCommand;
+        public float triggerCommand;
+        // Optionnal commands
+        public int poseCommand;
+        public float pinchCommand;// Can be computed from triggerCommand by default
+    }
+
+    public interface IHandRepresentation
+    {
+        public void SetHandCommand(HandCommand command);
+        public GameObject gameObject { get; }
+        public void SetHandColor(Color color);
+        public void SetHandMaterial(Material material);
+        public void DisplayMesh(bool shouldDisplay);
+        public bool IsMeshDisplayed { get; }
+        public Material SharedHandMaterial { get; }
+    }
 }
+#endregion

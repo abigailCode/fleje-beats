@@ -21,7 +21,8 @@ public class BoxesPool : MonoBehaviour {
             Debug.Log($"Spawn rate: {_spawnRates[i]}");
             if (i > 0) timeTotal -= _spawnRates[i - 1];
             yield return new WaitForSeconds(timeTotal);
-            Invoke("InstantiateBox", _spawnRates[i]);
+            Invoke("InstantiateBoxP1", _spawnRates[i]);
+            Invoke("InstantiateBoxP2", _spawnRates[i]);
         }
     }
 
@@ -37,6 +38,44 @@ public class BoxesPool : MonoBehaviour {
 
         GameObject box = Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
       
+        StartCoroutine(Rotate(box));
+
+        Rigidbody rb = box.GetComponent<Rigidbody>();
+        rb.velocity = -Vector3.forward * _boxSpeed;
+    }
+
+    void InstantiateBoxP1()
+    {
+        float randomX = Random.Range(-9.5f, -12.5f);
+
+        Vector3 spawnPosition = new Vector3(randomX, transform.position.y, transform.position.z);
+
+        //! The box model needs to be rotated 180 degrees on the Y axis
+        Quaternion rotation = Quaternion.Euler(0, 180, 0);
+
+        int boxIndex = Random.Range(0, _boxPrefabs.Length);
+
+        GameObject box = Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
+
+        StartCoroutine(Rotate(box));
+
+        Rigidbody rb = box.GetComponent<Rigidbody>();
+        rb.velocity = -Vector3.forward * _boxSpeed;
+    }
+
+    void InstantiateBoxP2()
+    {
+        float randomX = Random.Range(9.5f, 12.5f);
+
+        Vector3 spawnPosition = new Vector3(randomX, transform.position.y, transform.position.z);
+
+        //! The box model needs to be rotated 180 degrees on the Y axis
+        Quaternion rotation = Quaternion.Euler(0, 180, 0);
+
+        int boxIndex = Random.Range(0, _boxPrefabs.Length);
+
+        GameObject box = Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
+
         StartCoroutine(Rotate(box));
 
         Rigidbody rb = box.GetComponent<Rigidbody>();

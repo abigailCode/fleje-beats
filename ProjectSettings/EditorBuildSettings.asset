@@ -7,10 +7,16 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: 622cdeb6a5dd80542a8b0f981172b58e
+    guid: f1a1fa58b0180274ea9e6e8a12c6d96c
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: dfb75c0cb6dc37341b00b6cca18d9231
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 622cdeb6a5dd80542a8b0f981172b58e
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerTest.unity
+    guid: d03f0144181a775408370aa0ef27a925
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2df53dbc108ac9b4ebecce4583edb22a,
       type: 2}
