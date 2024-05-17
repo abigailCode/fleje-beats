@@ -36,13 +36,8 @@ public class ShowRanking : MonoBehaviour {
     }
 
     void UpdateRanking() {
-        StartCoroutine(UpdateRankingList());
-    }
-
-    IEnumerator UpdateRankingList() {
         RankingWriter rankingWriter = new();
         rankingWriter.UpdateRanking();
-        yield return new WaitForSeconds(1);
         SetUpRankingList();
     }
 
