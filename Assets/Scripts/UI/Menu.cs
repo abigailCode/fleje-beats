@@ -13,11 +13,6 @@ public class Menu : MonoBehaviour
         SCManager.instance.LoadScene("Victory");
     }
 
-    public void StartGame() {
-       // GameManager.instance.ResetState();
-        SCManager.instance.LoadScene("GameWip");
-    }
-
     public void QuitGame() => Application.Quit();
 
     public void ShowCredits() => CreditsPanel.SetActive(true);
