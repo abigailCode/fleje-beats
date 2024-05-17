@@ -21,13 +21,11 @@ public class HandVibrationBehaviour : MonoBehaviour
     }
     public void VibRight()
     {
-        Debug.LogWarning("lkdjflkjsdflkerewlrjwlrj l,fdnlfghwer");
         Invoke("startVibRight", .1f);
         Invoke("stopVibRight", .4f);
     }
     public void startVibRight()
     {
-        Debug.LogWarning("lkdjflkjsdflkerewlrj1111111111111111111111r");
 
         OVRInput.SetControllerVibration(1, 1, OVRInput.Controller.RTouch);
     }
