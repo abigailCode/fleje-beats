@@ -12,6 +12,10 @@ public class SlicingBehaviour : MonoBehaviour {
     GameObject _scoreText;
     AudioSource[] audioSources;
 
+    //event for hand vibration
+    public delegate void HandsVibrating();
+    public static event HandsVibrating OnHandsVibrating;
+
     void Start() {
        _scoreText = GameObject.Find("ScoreText");
         audioSources = GetComponents<AudioSource>();
@@ -65,6 +69,21 @@ public class SlicingBehaviour : MonoBehaviour {
                 //_scoreText.SendMessage("DecreaseScore");
             }
         }
+
+        if (OnHandsVibrating != null)
+        {
+            OnHandsVibrating();
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+            if (OnHandsVibrating != null)
+            {
+                OnHandsVibrating();
+            }
+    
     }
 
     IEnumerator DestroySlicedObjects(GameObject upperHull, GameObject lowerHull) {
