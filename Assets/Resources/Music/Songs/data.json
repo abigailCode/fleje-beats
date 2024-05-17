@@ -7,16 +7,33 @@
             "duration": 174,
             "levels": [
                 {
-                    "level": 1,
-                    "path": "betteroffalone/level1.json"
+                    "level": "EASY",
+                    "path": "betteroffalone/level1.json",
+                    "levelRanking": [
+                        {
+                            "username": "Anonymous",
+                            "score": 7,
+                            "max_combo": 0,
+                            "accuracy": 0.0
+                        }
+                    ]
                 },
                 {
-                    "level": 2,
-                    "path": "betteroffalone/level2.json"
+                    "level": "MEDIUM",
+                    "path": "betteroffalone/level2.json",
+                    "levelRanking": [
+                        {
+                            "username": "Anonymous",
+                            "score": 10,
+                            "max_combo": 0,
+                            "accuracy": 0.0
+                        }
+                    ]
                 },
                 {
-                    "level": 3,
-                    "path": "betteroffalone/level3.json"
+                    "level": "HARD",
+                    "path": "betteroffalone/level3.json",
+                    "levelRanking": []
                 }
             ]
         },
@@ -27,16 +44,19 @@
             "duration": 130,
             "levels": [
                 {
-                    "level": 1,
-                    "path": "song2/song2_level1.json"
+                    "level": "EASY",
+                    "path": "song2/song2_level1.json",
+                    "levelRanking": []
                 },
                 {
-                    "level": 2,
-                    "path": "song2/song2_level2.json"
+                    "level": "MEDIUM",
+                    "path": "song2/song2_level2.json",
+                    "levelRanking": []
                 },
                 {
-                    "level": 3,
-                    "path": "song2/song2_level3.json"
+                    "level": "HARD",
+                    "path": "song2/song2_level3.json",
+                    "levelRanking": []
                 }
             ]
         },
@@ -47,16 +67,19 @@
             "duration": 70,
             "levels": [
                 {
-                    "level": 1,
-                    "path": "song3/song3_level1.json"
+                    "level": "EASY",
+                    "path": "song3/song3_level1.json",
+                    "levelRanking": []
                 },
                 {
-                    "level": 2,
-                    "path": "song3/song3_level2.json"
+                    "level": "MEDIUM",
+                    "path": "song3/song3_level2.json",
+                    "levelRanking": []
                 },
                 {
-                    "level": 3,
-                    "path": "song3/song3_level3.json"
+                    "level": "HARD",
+                    "path": "song3/song3_level3.json",
+                    "levelRanking": []
                 }
             ]
         }

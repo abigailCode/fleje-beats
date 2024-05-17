@@ -35,17 +35,22 @@ public class SongsReader {
         return null;
     }
 
-    public void SetData(SongDataList songDataList) {
-        for (int i = 0; i < songDataList.songData.Count; i++)
-        {
-            Debug.Log(songDataList.songData[i].title);
-            Debug.Log(songDataList.songData[i].artist);
-            Debug.Log(songDataList.songData[i].path);
-            Debug.Log(songDataList.songData[i].duration);
-            for (int j = 0; j < songDataList.songData[i].levels.Length; j++)
-            {
-                Debug.Log(songDataList.songData[i].levels[j].level);
-                Debug.Log(songDataList.songData[i].levels[j].path);
+    public void PrintData(SongDataList songDataList) {
+        foreach (SongData songData in songDataList.songData) {
+            Debug.Log(songData.title);
+            Debug.Log(songData.artist);
+            Debug.Log(songData.path);
+            Debug.Log(songData.duration);
+            foreach (SongLevel songLevel in songData.levels) {
+                Debug.Log(songLevel.level);
+                Debug.Log(songLevel.path);
+                
+                foreach (LevelRanking ranking in songLevel.levelRanking) {
+                    Debug.Log(ranking.username);
+                    Debug.Log(ranking.score);
+                    Debug.Log(ranking.max_combo);
+                    Debug.Log(ranking.accuracy);
+                }
             }
         }
     }

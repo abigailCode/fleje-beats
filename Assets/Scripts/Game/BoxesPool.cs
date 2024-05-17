@@ -5,8 +5,8 @@ using UnityEngine;
 public class BoxesPool : MonoBehaviour {
     [SerializeField] GameObject[] _boxPrefabs;
     [SerializeField] float _boxSpeed = 10f;
-    float _rotationSpeed = 100f;
-    float _spawnDelay = 4.5f;
+    [SerializeField] float _rotationSpeed = 100f;
+    [SerializeField] float _spawnDelay = 4.5f;
 
     void Start() {
         SongLevelConfiguration _levelConf = new LevelConfReader().ReadConf();
@@ -17,8 +17,7 @@ public class BoxesPool : MonoBehaviour {
 
     IEnumerator EndLevel() {
         yield return new WaitForSeconds(PlayerPrefs.GetInt("song.duration"));
-        SCManager.instance.LoadScene("Menu");
-        AudioManager.instance.UnloadSong();
+        Score.FinishGame();
     }
 
     IEnumerator SpawnBoxes2(List<SongBeat> _beatData) {

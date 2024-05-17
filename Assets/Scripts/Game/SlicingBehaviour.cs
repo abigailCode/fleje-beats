@@ -13,8 +13,6 @@ public class SlicingBehaviour : MonoBehaviour {
     AudioSource[] audioSources;
 
     void Start() {
-        //Debug.Log("awdawd " + Microsoft.MixedReality.Toolkit.Input.);
-        //Microsoft.MixedReality.Toolkit.Input.PointerBehavior
        _scoreText = GameObject.Find("ScoreText");
         audioSources = GetComponents<AudioSource>();
     }
