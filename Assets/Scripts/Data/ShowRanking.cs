@@ -5,9 +5,26 @@ using UnityEngine;
 public class ShowRanking : MonoBehaviour {
     [SerializeField] GameObject _scoreContent;
     [SerializeField] GameObject _rankingContent;
+    [SerializeField] GameObject _inputName;
+
+    TouchScreenKeyboard keyboard;
 
     void Awake() {
         SetUp();
+    }
+
+    void Update() {
+        if (keyboard != null) {
+            string text = keyboard.text;
+
+            _inputName.GetComponent<TMP_Text>().text = text;
+
+            if (keyboard.status == TouchScreenKeyboard.Status.Done) {
+                keyboard = null;
+                PlayerPrefs.SetString("username", text);
+                UpdateRanking();
+            }
+        }
     }
 
     void SetUp() {
@@ -41,8 +58,5 @@ public class ShowRanking : MonoBehaviour {
         SetUpRankingList();
     }
 
-    public void OnClick() {
-        UpdateRanking();
-        //Show keyboard
-    }
+    public void OnClick() => keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, false, false);
 }
