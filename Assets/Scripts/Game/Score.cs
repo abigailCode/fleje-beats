@@ -59,4 +59,6 @@ public class Score : MonoBehaviour {
         combo = 0;
         _comboText.text = combo.ToString();
     }
+
+    public int GetCombo() => combo;
 }

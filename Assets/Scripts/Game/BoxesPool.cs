@@ -81,7 +81,7 @@ public class BoxesPool : MonoBehaviour {
         float locationY = GetLocation(beat.locationY, "locY");
         int hitArea = GetHitArea(beat.hit);
 
-        Vector3 spawnPosition = new Vector3(locationX, locationY, transform.position.z);
+        Vector3 spawnPosition = new(locationX, locationY, transform.position.z);
 
         //! The box model needs to be rotated 180 degrees on the Y axis
         Quaternion rotation = Quaternion.Euler(0, 180, 0);
@@ -89,6 +89,7 @@ public class BoxesPool : MonoBehaviour {
         int boxIndex = Random.Range(0, _boxPrefabs.Length);
 
         GameObject box = Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
+        box.transform.parent = transform;
 
         StartCoroutine(Rotate(box, hitArea));
 
@@ -128,4 +129,6 @@ public class BoxesPool : MonoBehaviour {
                 break;
         }
     }
+
+    void StopSpawn() => StopAllCoroutines();
 }

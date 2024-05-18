@@ -1,19 +1,26 @@
+using System.Collections;
 using UnityEngine;
 
 public class BoundBehaviour : MonoBehaviour {
     [SerializeField] GameObject _scoreCanvas;
-    GameObject _currentBox;
+    int boxesLost = 0;
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Box")) {
+            if (++boxesLost == 5) StartCoroutine(Lose());
             _scoreCanvas.SendMessage("ResetCombo");
-            _currentBox = other.gameObject;
-            Invoke(nameof(ActivateGravity), 1);
-            Invoke(nameof(DestroyBox), 2);
+            if (_scoreCanvas.GetComponent<Score>().GetCombo() != 0) boxesLost = 0;
+
+            other.transform.parent.SendMessage("DestroyBox");
         }
     }
 
-    void ActivateGravity() => _currentBox.GetComponent<Rigidbody>().useGravity = true;
-
-    void DestroyBox() => Destroy(_currentBox.transform.parent.gameObject);
+    IEnumerator Lose() {
+        GameObject boxesSpawn = GameObject.Find("BoxesSpawn");
+        boxesSpawn.SendMessage("StopSpawn");
+        boxesSpawn.BroadcastMessage("DestroyBox");
+        //Lose sound
+        yield return new WaitForSeconds(2);
+        Score.FinishGame();
+    }
 }
