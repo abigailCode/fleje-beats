@@ -26,7 +26,7 @@ public class Score : MonoBehaviour {
 
     void UpdateScore(int score = 0) {
         if (combo != 0 && combo % 10 == 0) StartCoroutine(ShowDouble());
-        if (_doubleText.IsActive()) score++;
+        if (_doubleText.IsActive()) ++score;
 
         _scoreText.text = score.ToString();
         _comboText.text = (++combo).ToString();
