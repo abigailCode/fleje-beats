@@ -16,10 +16,9 @@ public class ShowRanking : MonoBehaviour {
         Transform scoreHeader = _scoreContent.transform.GetChild(0).transform;
         scoreHeader.GetChild(0).GetComponent<TMP_Text>().text = PlayerPrefs.GetString("song.title");
         scoreHeader.GetChild(1).GetComponent<TMP_Text>().text = PlayerPrefs.GetString("song.level");
-        _scoreContent.transform.Find("Score").GetComponent<TMP_Text>().text = $"SCORE: {PlayerPrefs.GetInt("score")}";
-        //_scoreContent.transform.Find("MaxCombo").GetComponent<TMP_Text>().text = $"MAX COMBO: {PlayerPrefs.GetInt("max_combo")}";
-        //_scoreContent.transform.Find("Accuracy").GetComponent<TMP_Text>().text = $"ACCURACY: {PlayerPrefs.GetFloat("accuracy")}%";
-
+        _scoreContent.transform.GetChild(1).GetComponent<TMP_Text>().text = $"SCORE: {PlayerPrefs.GetInt("score")}";
+        _scoreContent.transform.GetChild(2).GetComponent<TMP_Text>().text = $"MAX COMBO: {PlayerPrefs.GetInt("max_combo")}";
+        
         SetUpRankingList();
     }
 
@@ -31,9 +30,10 @@ public class ShowRanking : MonoBehaviour {
             GameObject ranking = _rankingContent.transform.GetChild(i).gameObject;
             ranking.transform.SetParent(_rankingContent.transform, false);
             ranking.transform.GetChild(0).GetComponent<TMP_Text>().text = levelRankings[i].username;
-            ranking.transform.GetChild(1).Find("Score").GetComponent<TMP_Text>().text = $"SCORE: {levelRankings[i].score}";
-            //ranking.transform.GetChild(1).Find("MaxCombo").GetComponent<TMP_Text>().text = $"MAX COMBO: {levelRankings[i].max_combo}";
-            //ranking.transform.GetChild(1).Find("Accuracy").GetComponent<TMP_Text>().text = $"ACCURACY: {levelRankings[i].accuracy}%";
+
+            Transform details = ranking.transform.GetChild(1);
+            details.GetChild(0).GetComponent<TMP_Text>().text = $"SCORE: {levelRankings[i].score}";
+            details.GetChild(1).GetComponent<TMP_Text>().text = $"MAX COMBO: {levelRankings[i].max_combo}";
         }
     }
 
@@ -49,7 +49,6 @@ public class ShowRanking : MonoBehaviour {
 
     public void Submit() {
         string name = _inputText.GetComponent<TMP_Text>().text;
-        Debug.LogWarning(name);
         PlayerPrefs.SetString("username", name);
         UpdateRanking();
     }

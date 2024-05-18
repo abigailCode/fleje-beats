@@ -49,7 +49,6 @@ public class SongsReader {
                     Debug.Log(ranking.username);
                     Debug.Log(ranking.score);
                     Debug.Log(ranking.max_combo);
-                    Debug.Log(ranking.accuracy);
                 }
             }
         }

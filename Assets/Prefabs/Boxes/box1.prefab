@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 356183305743589422}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.677, z: 0}
+  m_LocalPosition: {x: 0, y: 0.672, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52,8 +52,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6327687, y: 0.03152448, z: 0.63466597}
-  m_Center: {x: -0.0005688369, y: -0.3355995, z: 0.0014144182}
+  m_Size: {x: 0.7042991, y: 0.09365171, z: 0.6667267}
+  m_Center: {x: -0.010840356, y: -0.34911618, z: -0.0010706037}
 --- !u!1 &2835660005289475234
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 8029158381029054278}
   - component: {fileID: 8642509194267182741}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Body
   m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -489,7 +489,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.02, y: 0.02, z: 0.02}
+  m_Size: {x: 0.016, y: 0.016, z: 0.016}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7750375478289298373
 GameObject:
@@ -508,7 +508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1173694687089224791
 Transform:
   m_ObjectHideFlags: 0

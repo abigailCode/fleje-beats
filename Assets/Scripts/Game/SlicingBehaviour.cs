@@ -9,7 +9,7 @@ public class SlicingBehaviour : MonoBehaviour {
     [SerializeField] float _cutForce = 2500;
     [SerializeField] VelocityEstimator _estimator;
     [SerializeField] Transform _startSlicePoint, _endSlicePoint;
-    GameObject _scoreText;
+    GameObject _scoreCanvas;
     AudioSource[] audioSources;
 
     //event for hand vibration
@@ -17,7 +17,7 @@ public class SlicingBehaviour : MonoBehaviour {
     public static event HandsVibrating OnHandsVibrating;
 
     void Start() {
-       _scoreText = GameObject.Find("ScoreText");
+        _scoreCanvas = GameObject.Find("ScoreCanvas");
         audioSources = GetComponents<AudioSource>();
     }
 
@@ -58,32 +58,22 @@ public class SlicingBehaviour : MonoBehaviour {
     void OnTriggerEnter(Collider other) {
         if (other != null) {
             if (other.CompareTag("CorrectHitbox")) {
-                Slice(other.gameObject);
-                _scoreText.SendMessage("IncreaseScore");
+                Slice(other.transform.parent.Find("Body").gameObject);
                 audioSources[0].Play();
+                _scoreCanvas.SendMessage("IncreaseScore");
             
             }
             if (other.CompareTag("Box")) { 
                 Slice(other.gameObject);
                 audioSources[1].Play();
-                //_scoreText.SendMessage("DecreaseScore");
+                _scoreCanvas.SendMessage("ResetCombo");
             }
         }
-
-        if (OnHandsVibrating != null)
-        {
-            OnHandsVibrating();
-        }
+        OnHandsVibrating?.Invoke();
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        
-            if (OnHandsVibrating != null)
-            {
-                OnHandsVibrating();
-            }
-    
+    void OnCollisionEnter(Collision collision) {
+        OnHandsVibrating?.Invoke();
     }
 
     IEnumerator DestroySlicedObjects(GameObject upperHull, GameObject lowerHull) {

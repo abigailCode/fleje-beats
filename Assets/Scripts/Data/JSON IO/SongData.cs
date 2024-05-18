@@ -45,7 +45,6 @@ public class SongLevel {
                 if (newRanking.score <= ranking.score) break;
                 ranking.score = newRanking.score;
                 ranking.max_combo = newRanking.max_combo;
-                ranking.accuracy = newRanking.accuracy;
             }
         }
         return rankings;
@@ -57,13 +56,11 @@ public class LevelRanking {
     public string username;
     public int score;
     public int max_combo;
-    public float accuracy;
 
-    public LevelRanking(string username, int score, int max_combo, float accuracy) {
+    public LevelRanking(string username, int score, int max_combo) {
         this.username = username;
         this.score = score;
         this.max_combo = max_combo;
-        this.accuracy = accuracy;
     }
 }
 
