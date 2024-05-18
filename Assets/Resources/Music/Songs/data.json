@@ -32,6 +32,11 @@
                     "path": "betteroffalone/level2.json",
                     "levelRanking": [
                         {
+                            "username": "Kili",
+                            "score": 88,
+                            "max_combo": 33
+                        },
+                        {
                             "username": "Anonymous",
                             "score": 10,
                             "max_combo": 0

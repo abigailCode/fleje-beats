@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class BoxesPool : MonoBehaviour {
     [SerializeField] GameObject[] _boxPrefabs;
-    [SerializeField] float _boxSpeed = 10f;
+    [SerializeField] float _boxSpeed = 20f;
     [SerializeField] float _rotationSpeed = 100f;
-    [SerializeField] float _spawnDelay = 4.5f;
+    [SerializeField] float _spawnDelay = 4.900012f;
+    //[SerializeField] Transform GameObject;
 
     void Start() {
+        //float distance = Vector3.Distance(transform.position, GameObject.position);
+        //float time = distance / _boxSpeed;
+
         SongLevelConfiguration _levelConf = new LevelConfReader().ReadConf();
         AudioManager.instance.PlaySong();
-        StartCoroutine(SpawnBoxes2(_levelConf.beatData));
+        StartCoroutine(SpawnBoxes(_levelConf.beatData));
         StartCoroutine(EndLevel());
+        
     }
 
     IEnumerator EndLevel() {
@@ -20,13 +25,13 @@ public class BoxesPool : MonoBehaviour {
         Score.FinishGame();
     }
 
-    IEnumerator SpawnBoxes2(List<SongBeat> _beatData) {
+    IEnumerator SpawnBoxes(List<SongBeat> _beatData) {
         float oldTime = 0;
         foreach (SongBeat beat in _beatData) {
-            if (beat.time + _spawnDelay >= PlayerPrefs.GetInt("song.duration")) break;
-            yield return new WaitForSeconds(beat.time + _spawnDelay - oldTime);
-            oldTime = beat.time + _spawnDelay;
-            InstantiateBox2(beat);
+            if (beat.time <= _spawnDelay) continue;
+            yield return new WaitForSeconds(beat.time - _spawnDelay - oldTime);
+            oldTime = beat.time - _spawnDelay;
+            InstantiateBox(beat);
         }
     }
 
@@ -71,7 +76,7 @@ public class BoxesPool : MonoBehaviour {
         return rotation;
     }
 
-    void InstantiateBox2(SongBeat beat) {
+    void InstantiateBox(SongBeat beat) {
         float locationX = GetLocation(beat.locationX, "locX");
         float locationY = GetLocation(beat.locationY, "locY");
         int hitArea = GetHitArea(beat.hit);
