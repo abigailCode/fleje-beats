@@ -24,17 +24,20 @@ public class Score : MonoBehaviour {
 
     void OnDisable() => OnGameFinished -= GoToRanking;
 
-    void UpdateScore(int score = 0) {
-        if (combo != 0 && combo % 10 == 0) StartCoroutine(ShowDouble());
+    void UpdateScore() {
         if (_doubleText.IsActive()) ++score;
 
-        _scoreText.text = score.ToString();
+        _scoreText.text = (++score).ToString();
         _comboText.text = (++combo).ToString();
+        if (combo != 0 && combo % 10 == 0) StartCoroutine(ShowDouble());
     }
 
-    void IncreaseScore() => UpdateScore(++score);
+    void IncreaseScore() {
+        Debug.Log("Score increased");
+        UpdateScore();
+    }
 
-    void DecreaseScore() { if (score > 0) UpdateScore(--score); }
+    //void DecreaseScore() { if (score > 0) UpdateScore(); }
 
     void GoToRanking() {
         if (combo > maxCombo) maxCombo = combo;

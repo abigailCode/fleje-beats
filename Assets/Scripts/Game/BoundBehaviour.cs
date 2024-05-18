@@ -3,13 +3,18 @@ using UnityEngine;
 
 public class BoundBehaviour : MonoBehaviour {
     [SerializeField] GameObject _scoreCanvas;
-    int boxesLost = 0;
+    int _boxesLost = 0;
+
+    void FixedUpdate() {
+        if (_scoreCanvas.GetComponent<Score>().GetCombo() != 0) _boxesLost = 0;
+    }
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Box")) {
-            if (++boxesLost == 5) StartCoroutine(Lose());
+            if (++_boxesLost == 5) StartCoroutine(Lose());
             _scoreCanvas.SendMessage("ResetCombo");
-            if (_scoreCanvas.GetComponent<Score>().GetCombo() != 0) boxesLost = 0;
+            
+            Debug.Log("LOST" + _boxesLost);
 
             other.transform.parent.SendMessage("DestroyBox");
         }

@@ -63,7 +63,7 @@ public class SlicingBehaviour : MonoBehaviour {
                 audioSources[0].Play();
             
             }
-            if (other.CompareTag("Box")) { 
+            if (other.CompareTag("Box")) {
                 _scoreCanvas.SendMessage("ResetCombo");
                 Slice(other.gameObject);
                 audioSources[1].Play();
