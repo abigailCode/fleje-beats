@@ -1,49 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
-public class HandVibrationBehaviour : MonoBehaviour
-{
+public class HandVibrationBehaviour : MonoBehaviour {
 
+    [SerializeField] XRBaseController leftController, rightController;
 
+    //void OnEnable() => SlicingBehaviour.OnHandsVibrating += SendHaptics;
+    //void OnDisable() => SlicingBehaviour.OnHandsVibrating -= SendHaptics;
 
-    //void OnEnable()
-    //{
-    //    SlicingBehaviour.OnHandsVibrating += VibRight;
-    //    SlicingBehaviour.OnHandsVibrating += VibLeft;
-    //}
+    void Update() {
+        SendHaptics();
+    }
 
-    //void OnDisable()
-    //{
-    //    SlicingBehaviour.OnHandsVibrating -= VibRight;
-    //    SlicingBehaviour.OnHandsVibrating -= VibLeft;
-    //}
-    //public void VibRight()
-    //{
-    //    Invoke("startVibRight", .1f);
-    //    Invoke("stopVibRight", .4f);
-    //}
-    //public void startVibRight()
-    //{
+    void SendHaptics() {
 
-    //    OVRInput.SetControllerVibration(1, 1, OVRInput.Controller.RTouch);
-    //}
-    //public void stopVibRight()
-    //{
-    //    OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
-    //}
-
-    //public void VibLeft()
-    //{
-    //    Invoke("startVibLeft", .1f);
-    //    Invoke("stopVibLeft", .4f);
-    //}
-    //public void startVibLeft()
-    //{
-    //    OVRInput.SetControllerVibration(1, 1, OVRInput.Controller.LTouch);
-    //}
-    //public void stopVibLeft()
-    //{
-    //    OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
-    //}
+        leftController.SendHapticImpulse(0.5f, 0.1f);
+        rightController.SendHapticImpulse(0.5f, 0.1f);
+    }
 }

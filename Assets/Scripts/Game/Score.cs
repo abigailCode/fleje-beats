@@ -33,7 +33,6 @@ public class Score : MonoBehaviour {
     }
 
     void IncreaseScore() {
-        Debug.Log("Score increased");
         UpdateScore();
     }
 

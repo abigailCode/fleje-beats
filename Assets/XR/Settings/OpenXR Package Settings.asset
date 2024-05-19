@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
   m_Name: MetaHandTrackingAim Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Hand Tracking Aim
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
   m_Name: HandTracking Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -609,10 +609,6 @@ MonoBehaviour:
   - {fileID: 8125257076662215762}
   - {fileID: 8761069516224637431}
   - {fileID: 5435266491125952667}
-  - {fileID: -5068717881442040474}
-  - {fileID: 7898102493595318867}
-  - {fileID: -5144683303941979905}
-  - {fileID: -4656358305073324841}
   - {fileID: -2309133919762431250}
   - {fileID: 3743627421683938385}
   - {fileID: -41692672907568957}
@@ -1799,11 +1795,6 @@ MonoBehaviour:
   - {fileID: -3922013635523144208}
   - {fileID: -4434786779380995790}
   - {fileID: 8042494972996535134}
-  - {fileID: -691370149060373662}
-  - {fileID: 7449003555325380644}
-  - {fileID: -6577646431701360514}
-  - {fileID: 8904342863479282871}
-  - {fileID: 8549364393267222209}
   - {fileID: -4415505152734115625}
   - {fileID: 5848044594275264606}
   - {fileID: 3115655697977032889}

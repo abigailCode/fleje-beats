@@ -11,9 +11,14 @@
                     "path": "betteroffalone/level1.json",
                     "levelRanking": [
                         {
+                            "username": "DESTHRONE",
+                            "score": 121,
+                            "max_combo": 82
+                        },
+                        {
                             "username": "Kili",
-                            "score": 67,
-                            "max_combo": 22
+                            "score": 98,
+                            "max_combo": 69
                         },
                         {
                             "username": "Anonymous",

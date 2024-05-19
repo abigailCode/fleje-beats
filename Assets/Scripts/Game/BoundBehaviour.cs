@@ -14,7 +14,6 @@ public class BoundBehaviour : MonoBehaviour {
             if (++_boxesLost == 5) StartCoroutine(Lose());
             _scoreCanvas.SendMessage("ResetCombo");
             
-            Debug.Log("LOST" + _boxesLost);
 
             other.transform.parent.SendMessage("DestroyBox");
         }
