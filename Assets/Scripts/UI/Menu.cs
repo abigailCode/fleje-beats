@@ -9,10 +9,6 @@ public class Menu : MonoBehaviour
         AudioManager.instance.PlayMusic("menu");
     }
 
-    public void Test() {
-        SCManager.instance.LoadScene("Victory");
-    }
-
     public void QuitGame() => Application.Quit();
 
     public void ShowCredits() => CreditsPanel.SetActive(true);

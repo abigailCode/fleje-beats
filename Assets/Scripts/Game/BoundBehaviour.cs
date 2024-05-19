@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 public class BoundBehaviour : MonoBehaviour {
-    [SerializeField] GameObject _scoreCanvas;
+    [SerializeField] GameObject _scoreCanvas, _loseCanvas;
     int _boxesLost = 0;
 
     void FixedUpdate() {
@@ -24,7 +24,8 @@ public class BoundBehaviour : MonoBehaviour {
         boxesSpawn.SendMessage("StopSpawn");
         boxesSpawn.BroadcastMessage("DestroyBox");
         //Lose sound
+        _loseCanvas.SetActive(true);
         yield return new WaitForSeconds(2);
-        Score.FinishGame();
+        SCManager.instance.LoadScene("Menu");
     }
 }
