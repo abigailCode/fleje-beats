@@ -12,6 +12,22 @@
       },
       "url": "https://package.openupm.com"
     },
+    "com.meta.xr.sdk.core": {
+      "version": "65.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.haptics": {
+      "version": "65.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.meta.xr.sdk.core": "65.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.microsoft.mixedreality.openxr": {
       "version": "file:MixedReality/com.microsoft.mixedreality.openxr-1.10.1.tgz",
       "depth": 0,
