@@ -1,0 +1,1202 @@
+[
+  {
+    "time": 0.22008735236641833,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 0.9930654498270584,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 1.3982759033766636,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 3.0233871841460784,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 3.348161220082152,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 3.422047992245913,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 3.5014699050824714,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 3.7286917865142275,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 4.339596981642362,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 5.830609873704532,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 5.925648427064537,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 6.92563736185155,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 9.169969166063566,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 9.372002763046352,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 10.136836095798586,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 10.302052657567351,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 10.430309550829145,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 10.463679140146592,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 10.581482999041834,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 13.916496959207127,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 14.309825550959008,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 14.529278535130478,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 14.606978019688901,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 14.929883802740875,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 16.198869550913603,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 16.926639141847573,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 17.74377427164386,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 18.69689033570953,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 18.750101556719887,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 18.756691546050334,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 20.238296985894195,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 20.985952742775442,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 22.105460222258753,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 22.41396276287779,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 23.17912593042066,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 23.95216609850852,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 23.95216609850852,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 24.100355760131134,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 24.120365353291266,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 26.33402308362767,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 27.19419816913325,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 27.743214156927774,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 27.82243767061398,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 27.85179131721038,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 28.034137592527436,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 28.071694570804187,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 28.08630847477185,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 29.315550233206146,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 29.928113344839705,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 29.969954066008526,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 30.50932714054569,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 30.894726075996456,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 30.971513835497287,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 30.971513835497287,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 31.1513791717368,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 31.400710815457387,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 32.46064642409653,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 32.760874210311236,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 33.25568030224643,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 33.95991302443338,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 33.9726517281813,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 33.9726517281813,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 33.98829001420753,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 34.685044325646665,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 35.02216374919052,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 35.9244810086593,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 38.648693808483486,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 39.51275896434534,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 40.0507804732621,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 41.1968301533982,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 42.24584953795354,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 42.690932196533026,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 42.97656286465003,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 43.62195654536289,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 44.077298044735585,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 44.27408129434224,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 44.6144544285606,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 45.13725615714946,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 45.81711384741459,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 46.29387809202817,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 46.5864718473914,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 46.78802830027365,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 48.56185562651862,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 48.694463949102015,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 49.12060525620403,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 50.16248472796048,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 50.45808417034494,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 51.15748459505796,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 51.383891525750954,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 52.026244541545786,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 52.81114935988829,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 52.882113342922906,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 54.15723402337721,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 54.41381325548224,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 54.71010019158054,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 54.92623817737235,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 55.46277778686641,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 55.55847920638297,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 56.513027340412705,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 56.83361530844724,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 57.253352871791776,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 57.42407568204278,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 58.340748290099945,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 58.693249089011466,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 59.39369979746844,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 60.28253722133602,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 60.32810791021065,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 60.89801105395584,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 62.051045668667584,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 63.15108391362725,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 63.458427164858364,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 64.09505464230463,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 64.39317126261321,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 64.79025620784518,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 64.88422043156532,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 65.47295318538991,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 66.22315257299974,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 67.30929306601234,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 67.37442182140573,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 67.70262746152484,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 68.07804339615576,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 68.14518894075565,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 68.66679558281109,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 69.31556617058591,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 69.57941542781039,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 69.91295399389301,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 70.55017289494717,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 71.72575689280117,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 71.72575689280117,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 71.72575689280117,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 72.43500879351211,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 72.59549681346935,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 73.01172160148852,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 73.05377296022719,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 73.54643978971424,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 73.7930873383552,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 73.98948746451013,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 74.34542671312293,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 74.68527296092688,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 74.9095513130802,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 76.43500343982774,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 78.48529848189231,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 78.64883723703552,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 79.86954682410624,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 80.38085956838047,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 80.43890769063918,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 81.00994964436424,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 82.38123941242961,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 82.41697091207787,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 82.46704529861815,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 83.14682663925834,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 83.254126343962,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 83.58353533375926,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 85.99359042379793,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 86.19232428175042,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 86.24833506793576,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 86.2959351258389,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 87.16333977087993,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 87.62245314435083,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 87.74471909403802,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 87.95250749173019,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 88.27664770094127,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 88.84416651689706,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 88.84416651689706,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 90.19213845664267,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 90.818846353513,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 90.94013835959703,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 91.00307535788754,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 91.2300406747034,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 93.28891901713322,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 93.44042928971176,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 93.78180083633733,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 94.18002163812889,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 96.04849381052492,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 96.08472777603612,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 96.08472777603612,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 96.15015017063801,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 96.38153448728033,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 96.5220091943744,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 96.72897237803417,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 96.76096829308004,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 98.27642017147058,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 99.02273318165732,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 99.516070307195,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 99.6722884721461,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 100.81388924992437,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 101.00347096329726,
+    "locationX": "Middle",
+    "locationY": "Top",
+    "hit": "Left"
+  },
+  {
+    "time": 101.13369354210909,
+    "locationX": "Left",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 101.72919788256593,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Top"
+  },
+  {
+    "time": 101.72919788256593,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 101.72919788256593,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 101.79630584804292,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 104.02556377961882,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 104.17846166276654,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Bottom"
+  },
+  {
+    "time": 104.23702347015504,
+    "locationX": "Right",
+    "locationY": "Bottom",
+    "hit": "Bottom"
+  },
+  {
+    "time": 106.17170496240786,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Left"
+  },
+  {
+    "time": 107.74593960090694,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Right"
+  },
+  {
+    "time": 108.59077635382208,
+    "locationX": "Left",
+    "locationY": "Bottom",
+    "hit": "Top"
+  },
+  {
+    "time": 109.38967104481496,
+    "locationX": "Right",
+    "locationY": "Top",
+    "hit": "Right"
+  },
+  {
+    "time": 109.45080111903704,
+    "locationX": "Middle",
+    "locationY": "Bottom",
+    "hit": "Left"
+  }
+]

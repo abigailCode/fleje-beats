@@ -1,105 +1,77 @@
 {
     "songData": [
-        {
-            "title": "Better Off Alone",
-            "artist": "AliceDJ",
-            "path": "betteroffalone/track",
-            "duration": 174,
-            "levels": [
-                {
-                    "level": "EASY",
-                    "path": "betteroffalone/level1.json",
-                    "levelRanking": [
-                        {
-                            "username": "DESTHRONE",
-                            "score": 121,
-                            "max_combo": 82
-                        },
-                        {
-                            "username": "Kili",
-                            "score": 98,
-                            "max_combo": 69
-                        },
-                        {
-                            "username": "Anonymous",
-                            "score": 27,
-                            "max_combo": 0
-                        },
-                        {
-                            "username": "Pepe",
-                            "score": 23,
-                            "max_combo": 0
-                        }
-                    ]
-                },
-                {
-                    "level": "MEDIUM",
-                    "path": "betteroffalone/level2.json",
-                    "levelRanking": [
-                        {
-                            "username": "Kili",
-                            "score": 160,
-                            "max_combo": 36
-                        },
-                        {
-                            "username": "Anonymous",
-                            "score": 10,
-                            "max_combo": 0
-                        }
-                    ]
-                },
-                {
-                    "level": "HARD",
-                    "path": "betteroffalone/level3.json",
-                    "levelRanking": []
-                }
+      {
+        "title": "Drive Breakbeat",
+        "artist": "Rockot",
+        "path": "drivebreakbeat/track",
+        "duration": 102,
+        "levels": [
+          {
+            "level": "EASY",
+            "path": "drivebreakbeat/level1.json",
+            "levelRanking": [
+              {
+                "username": "DESTHRONE",
+                "score": 121,
+                "max_combo": 82
+              },
+              {
+                "username": "Kili",
+                "score": 98,
+                "max_combo": 69
+              },
+              {
+                "username": "Anonymous",
+                "score": 27,
+                "max_combo": 0
+              }
             ]
-        },
-        {
-            "title": "Song 2",
-            "artist": "Artist 2",
-            "path": "song2",
-            "duration": 130,
-            "levels": [
-                {
-                    "level": "EASY",
-                    "path": "song2/song2_level1.json",
-                    "levelRanking": []
-                },
-                {
-                    "level": "MEDIUM",
-                    "path": "song2/song2_level2.json",
-                    "levelRanking": []
-                },
-                {
-                    "level": "HARD",
-                    "path": "song2/song2_level3.json",
-                    "levelRanking": []
-                }
+          },
+          {
+            "level": "MEDIUM",
+            "path": "drivebreakbeat/level2.json",
+            "levelRanking": [
+              {
+                "username": "Kili",
+                "score": 160,
+                "max_combo": 36
+              },
+              {
+                "username": "Anonymous",
+                "score": 10,
+                "max_combo": 0
+              }
             ]
-        },
-        {
-            "title": "Song 3",
-            "artist": "Artist 3",
-            "path": "song3",
-            "duration": 70,
-            "levels": [
-                {
-                    "level": "EASY",
-                    "path": "song3/song3_level1.json",
-                    "levelRanking": []
-                },
-                {
-                    "level": "MEDIUM",
-                    "path": "song3/song3_level2.json",
-                    "levelRanking": []
-                },
-                {
-                    "level": "HARD",
-                    "path": "song3/song3_level3.json",
-                    "levelRanking": []
-                }
-            ]
-        }
+          },
+          {
+            "level": "HARD",
+            "path": "drivebreakbeat/level3.json",
+            "levelRanking": []
+          }
+        ]
+      },
+      {
+        "title": "Secret Theme",
+        "artist": "Sr_Peuva_",
+        "path": "secrettheme",
+        "duration": 78,
+        "levels": [
+          {
+            "level": "EASY",
+            "path": "secrettheme/level1.json",
+            "levelRanking": []
+          },
+          {
+            "level": "MEDIUM",
+            "path": "secrettheme/level2.json",
+            "levelRanking": []
+          },
+          {
+            "level": "HARD",
+            "path": "secrettheme/level3.json",
+            "levelRanking": []
+          }
+        ]
+      }
     ]
 }
