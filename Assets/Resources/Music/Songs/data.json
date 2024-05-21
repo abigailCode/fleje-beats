@@ -21,6 +21,11 @@
                             "max_combo": 69
                         },
                         {
+                            "username": "abi",
+                            "score": 48,
+                            "max_combo": 5
+                        },
+                        {
                             "username": "Anonymous",
                             "score": 27,
                             "max_combo": 0

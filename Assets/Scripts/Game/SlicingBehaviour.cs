@@ -58,6 +58,7 @@ public class SlicingBehaviour : MonoBehaviour {
     void OnTriggerEnter(Collider other) {
         if (other != null) {
             if (other.CompareTag("CorrectHitbox")) {
+                other.transform.parent.Find("ElectricityParticle").gameObject.SetActive(true);
                 Transform body = other.transform.parent.Find("Body");
                 body.GetComponent<BoxCollider>().enabled = false;
                 _scoreCanvas.SendMessage("IncreaseScore");
@@ -65,6 +66,7 @@ public class SlicingBehaviour : MonoBehaviour {
                 audioSources[0].Play();
             }
             if (other.CompareTag("Box")) {
+                other.transform.parent.Find("ElectricityParticle").gameObject.SetActive(true);
                 Transform correctHitbox = other.transform.parent.Find("CorrectHitbox");
                 correctHitbox.GetComponent<BoxCollider>().enabled = false;
                 _scoreCanvas.SendMessage("ResetCombo");
