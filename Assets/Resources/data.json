@@ -8,7 +8,7 @@
             "levels": [
                 {
                     "level": "EASY",
-                    "path": "drivebreakbeat/level1.json",
+                    "path": "drivebreakbeat/level1",
                     "levelRanking": [
                         {
                             "username": "DESTHRONE",
@@ -34,7 +34,7 @@
                 },
                 {
                     "level": "MEDIUM",
-                    "path": "drivebreakbeat/level2.json",
+                    "path": "drivebreakbeat/level2",
                     "levelRanking": [
                         {
                             "username": "Kili",
@@ -55,7 +55,7 @@
                 },
                 {
                     "level": "HARD",
-                    "path": "drivebreakbeat/level3.json",
+                    "path": "drivebreakbeat/level3",
                     "levelRanking": []
                 }
             ]
@@ -68,7 +68,7 @@
             "levels": [
                 {
                     "level": "EASY",
-                    "path": "secrettheme/level1.json",
+                    "path": "secrettheme/level1",
                     "levelRanking": [
                         {
                             "username": "Kili",
@@ -79,12 +79,12 @@
                 },
                 {
                     "level": "MEDIUM",
-                    "path": "secrettheme/level2.json",
+                    "path": "secrettheme/level2",
                     "levelRanking": []
                 },
                 {
                     "level": "HARD",
-                    "path": "secrettheme/level3.json",
+                    "path": "secrettheme/level3",
                     "levelRanking": []
                 }
             ]
