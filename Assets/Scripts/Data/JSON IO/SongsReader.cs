@@ -2,36 +2,26 @@ using System.IO;
 using UnityEngine;
 
 public class SongsReader {
-    string _songsListPath = "Music/Songs/data.json";
-    string _dataFilePath;
-
-    public SongsReader() {
-        string absoluteAssetsPath = Application.dataPath;
-        string projectFolderPath = absoluteAssetsPath.Substring(0, absoluteAssetsPath.Length - "Assets".Length);
-        string resourcesFolderPath = Path.Combine(projectFolderPath, "Assets/Resources");
-        _dataFilePath = Path.Combine(resourcesFolderPath, _songsListPath);
-    }
-
-    //public void SaveData() {
-    //    List<songData> playersList = new List<songData>();
-    //    playersList.Add(new songData("Abby", 39));
-    //    playersList.Add(new songData("Bobby", 96));
-
-    //    songDataList songDataList = new songDataList();
-    //    songDataList.songData = playersList;
-
-    //    string jsonData = JsonUtility.ToJson(songDataList, true);
-    //    PlayerPrefs.SetString("PlayerList", jsonData);
-
-    //    File.WriteAllText(_dataFilePath, jsonData);
-    //}
+    string _songsListPath = "data";
 
     public SongDataList ReadSongs() {
-        if (File.Exists(_dataFilePath)) {
-            string jsonData = File.ReadAllText(_dataFilePath);
+        // Try to load from persistentDataPath first
+        string persistentDataPath = Path.Combine(Application.persistentDataPath, _songsListPath + ".json");
+        Debug.Log(persistentDataPath);
+        if (File.Exists(persistentDataPath)) {
+            string jsonData = File.ReadAllText(persistentDataPath);
             SongDataList songDataList = JsonUtility.FromJson<SongDataList>(jsonData);
             return songDataList;
         }
+
+        // Fallback to Resources if not found in persistentDataPath
+        TextAsset jsonDataAsset = Resources.Load<TextAsset>(_songsListPath);
+        if (jsonDataAsset != null) {
+            SongDataList songDataList = JsonUtility.FromJson<SongDataList>(jsonDataAsset.text);
+            return songDataList;
+        }
+
+        Debug.LogError("SongsReader: JSON data file not found in Resources or persistent data path.");
         return null;
     }
 
@@ -44,7 +34,7 @@ public class SongsReader {
             foreach (SongLevel songLevel in songData.levels) {
                 Debug.Log(songLevel.level);
                 Debug.Log(songLevel.path);
-                
+
                 foreach (LevelRanking ranking in songLevel.levelRanking) {
                     Debug.Log(ranking.username);
                     Debug.Log(ranking.score);

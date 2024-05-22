@@ -40,7 +40,6 @@ public class SongSelector : MonoBehaviour {
                 PlayerPrefs.SetString("song.level", level);
                 PlayerPrefs.SetString("song.level.path", songLevel.path);
                 PlayerPrefs.SetString("song.level.rankings", JsonUtility.ToJson(new LevelRankingArrayWrapper { levelRankingArray = songLevel.levelRanking.ToArray() }));
-                // SCManager.instance.LoadScene("GameWip");
                 _levelsPanel.SetActive(false);
                 _resumePanel.SetActive(true);
 

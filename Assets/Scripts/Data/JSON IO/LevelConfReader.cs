@@ -1,24 +1,20 @@
-using System.IO;
 using UnityEngine;
 
-
 public class LevelConfReader {
-    string _songsListPath = "Music/Songs";
-    string _dataFilePath;
-
-    public LevelConfReader() {
-        string absoluteAssetsPath = Application.dataPath;
-        string projectFolderPath = absoluteAssetsPath.Substring(0, absoluteAssetsPath.Length - "Assets".Length);
-        string resourcesFolderPath = Path.Combine(projectFolderPath, "Assets/Resources");
-        _dataFilePath = Path.Combine(resourcesFolderPath, _songsListPath, PlayerPrefs.GetString("song.level.path"));
-    }
+    string _songsListPath = "Music/Songs/";
 
     public SongLevelConfiguration ReadConf() {
-        if (File.Exists(_dataFilePath)) {
-            string jsonData = File.ReadAllText(_dataFilePath);
-            SongLevelConfiguration songLevelConfiguration = JsonUtility.FromJson<SongLevelConfiguration>(jsonData);
+        string songLevelPath = PlayerPrefs.GetString("song.level.path");
+
+        // Load the JSON file from the Resources folder
+        TextAsset jsonData = Resources.Load<TextAsset>(_songsListPath + songLevelPath);
+
+        if (jsonData != null) {
+            SongLevelConfiguration songLevelConfiguration = JsonUtility.FromJson<SongLevelConfiguration>(jsonData.text);
             return songLevelConfiguration;
         }
+
+        Debug.LogError("LevelConfReader: JSON data file not found in Resources.");
         return null;
     }
 
