@@ -9,6 +9,7 @@ public class SlicingBehaviour : MonoBehaviour {
     [SerializeField] float _cutForce = 2500;
     [SerializeField] VelocityEstimator _estimator;
     [SerializeField] Transform _startSlicePoint, _endSlicePoint;
+    [SerializeField] ParticleSystem _electricityParticle;
     GameObject _scoreCanvas;
     AudioSource[] audioSources;
 
@@ -27,6 +28,8 @@ public class SlicingBehaviour : MonoBehaviour {
         planeNormal.Normalize();
 
         SlicedHull hull = target.Slice(target.transform.position, planeNormal);
+        _electricityParticle.transform.position = target.transform.position;
+        _electricityParticle.Play();
         if (hull == null) return;
 
         var slicedHulls = CreateSlicedHulls(target, hull);
@@ -58,7 +61,7 @@ public class SlicingBehaviour : MonoBehaviour {
     void OnTriggerEnter(Collider other) {
         if (other != null) {
             if (other.CompareTag("CorrectHitbox")) {
-                other.transform.parent.Find("ElectricityParticle").gameObject.SetActive(true);
+                //other.transform.parent.Find("ElectricityParticle").gameObject.GetComponent<ParticleSystem>().Play();
                 Transform body = other.transform.parent.Find("Body");
                 body.GetComponent<BoxCollider>().enabled = false;
                 _scoreCanvas.SendMessage("IncreaseScore");
@@ -66,7 +69,7 @@ public class SlicingBehaviour : MonoBehaviour {
                 audioSources[0].Play();
             }
             if (other.CompareTag("Box")) {
-                other.transform.parent.Find("ElectricityParticle").gameObject.SetActive(true);
+                //other.transform.parent.Find("ElectricityParticle").gameObject.GetComponent<ParticleSystem>().Play();
                 Transform correctHitbox = other.transform.parent.Find("CorrectHitbox");
                 correctHitbox.GetComponent<BoxCollider>().enabled = false;
                 _scoreCanvas.SendMessage("ResetCombo");

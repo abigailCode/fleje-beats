@@ -7,9 +7,9 @@ public class Score : MonoBehaviour {
     public static event GameFinished OnGameFinished;
 
     [SerializeField] TMP_Text _scoreText, _comboText, _doubleText;
-    int score = -1;
+    int score = -10;
     int combo = -1;
-    int maxCombo = -1;
+    int maxCombo = -10;
 
     void Start() {
         UpdateScore();
@@ -25,9 +25,9 @@ public class Score : MonoBehaviour {
     void OnDisable() => OnGameFinished -= GoToRanking;
 
     void UpdateScore() {
-        if (_doubleText.IsActive()) ++score;
+        if (_doubleText.IsActive()) score +=10;
 
-        _scoreText.text = (++score).ToString();
+        _scoreText.text = (score += 10).ToString();
         _comboText.text = (++combo).ToString();
         if (combo != 0 && combo % 10 == 0) StartCoroutine(ShowDouble());
     }

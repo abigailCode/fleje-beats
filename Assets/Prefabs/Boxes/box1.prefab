@@ -754,7 +754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1344457166417818, guid: 4f8b6f6f48c87e349ab692bb39e52cab, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4792296990418494, guid: 4f8b6f6f48c87e349ab692bb39e52cab, type: 3}
       propertyPath: m_LocalScale.x
@@ -830,6 +830,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198464213672787702, guid: 4f8b6f6f48c87e349ab692bb39e52cab,
         type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198464213672787702, guid: 4f8b6f6f48c87e349ab692bb39e52cab,
+        type: 3}
       propertyPath: NoiseModule.frequency
       value: 10
       objectReference: {fileID: 0}
@@ -850,8 +855,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198464213672787702, guid: 4f8b6f6f48c87e349ab692bb39e52cab,
         type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198464213672787702, guid: 4f8b6f6f48c87e349ab692bb39e52cab,
+        type: 3}
       propertyPath: NoiseModule.scrollSpeed.scalar
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198464213672787702, guid: 4f8b6f6f48c87e349ab692bb39e52cab,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 198464213672787702, guid: 4f8b6f6f48c87e349ab692bb39e52cab,
+        type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 9.32
       objectReference: {fileID: 0}
     - target: {fileID: 198464213672787702, guid: 4f8b6f6f48c87e349ab692bb39e52cab,
         type: 3}
