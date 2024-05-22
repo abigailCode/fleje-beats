@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: ba97b875fac46d94da7a85de84491a68,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1580,7 +1581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &997127332
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9050,7 +9051,8 @@ PrefabInstance:
       propertyPath: m_IsGlobal
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8033907525919333156, guid: c86dc2dbe2afb6f4facd68eab0d3f15e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7143282459818091641, guid: c86dc2dbe2afb6f4facd68eab0d3f15e,
@@ -9093,8 +9095,35 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 394233864}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7665870774290355268, guid: c86dc2dbe2afb6f4facd68eab0d3f15e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1994303277}
   m_SourcePrefab: {fileID: 100100000, guid: c86dc2dbe2afb6f4facd68eab0d3f15e, type: 3}
+--- !u!1 &1994303276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7665870774290355268, guid: c86dc2dbe2afb6f4facd68eab0d3f15e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1994303275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1994303277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994303276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 81662710fd96f844f8935d273a62f5e5, type: 2}
 --- !u!1001 &2001463860
 PrefabInstance:
   m_ObjectHideFlags: 0
