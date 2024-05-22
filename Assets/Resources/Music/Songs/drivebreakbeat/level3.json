@@ -1,1864 +1,1642 @@
 {
   "beatData": [
     {
-      "time": 0.018942990438293856,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 0.018942990438293856,
-      "locationX": "Middle",
+      "time": 0.10035579187519657,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 1.0291071684758275,
-      "locationX": "Left",
-      "locationY": "Top",
+      "time": 0.10035579187519657,
+      "locationX": "Right",
+      "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 1.7560750506482747,
+      "time": 0.21940502190126682,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Right"
+      "locationY": "Bottom",
+      "hit": "Top"
     },
     {
-      "time": 2.1715841923551777,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Right"
+      "time": 0.5175795225945374,
+      "locationX": "Left",
+      "locationY": "Top",
+      "hit": "Left"
     },
     {
-      "time": 2.1715841923551777,
+      "time": 1.0967574427341424,
       "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Bottom"
+      "locationY": "Top",
+      "hit": "Top"
     },
     {
-      "time": 3.9759452835239575,
+      "time": 1.6422594139655324,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 3.9759452835239575,
+      "time": 1.6422594139655324,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Top"
     },
     {
-      "time": 4.869651015867995,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
+      "time": 2.9064131070421113,
+      "locationX": "Middle",
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 5.586951919252129,
+      "time": 2.9064131070421113,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 5.586951919252129,
+      "time": 2.9064131070421113,
       "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 6.808506397618937,
+      "time": 3.09843775562168,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 7.24622257002495,
-      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 7.24622257002495,
-      "locationX": "Left",
+      "time": 3.304863753681425,
+      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 7.592655336863771,
+      "time": 3.304863753681425,
       "locationX": "Left",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 7.592655336863771,
+      "time": 3.368454603633103,
       "locationX": "Middle",
+      "locationY": "Top",
+      "hit": "Top"
+    },
+    {
+      "time": 3.368454603633103,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 7.610337127310588,
+      "time": 3.6211781219924957,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Bottom"
     },
     {
-      "time": 7.610337127310588,
-      "locationX": "Left",
+      "time": 3.6211781219924957,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 8.754307081185004,
-      "locationX": "Right",
+      "time": 3.6211781219924957,
+      "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 8.754307081185004,
+      "time": 3.893950815523796,
       "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Left"
+    },
+    {
+      "time": 3.893950815523796,
+      "locationX": "Left",
+      "locationY": "Bottom",
+      "hit": "Top"
     },
     {
-      "time": 10.872061742331145,
+      "time": 4.6657272264334075,
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 10.872061742331145,
+      "time": 4.6657272264334075,
       "locationX": "Middle",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 11.447123647933116,
+      "time": 5.328228683274653,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 11.506650900598657,
+      "time": 6.043112735009941,
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 11.506650900598657,
-      "locationX": "Middle",
+      "time": 6.18659857507908,
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 11.57622724079888,
-      "locationX": "Left",
+      "time": 6.2646407678340275,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 11.859595701243205,
+      "time": 7.341662000783888,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Top"
+      "locationY": "Bottom",
+      "hit": "Left"
     },
     {
-      "time": 11.859595701243205,
-      "locationX": "Left",
+      "time": 8.769892882726753,
+      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 14.184065495276132,
-      "locationX": "Right",
+      "time": 8.769892882726753,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 14.184065495276132,
-      "locationX": "Middle",
-      "locationY": "Top",
+      "time": 8.769892882726753,
+      "locationX": "Right",
+      "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 15.706999425094176,
-      "locationX": "Middle",
+      "time": 9.707133472648298,
+      "locationX": "Left",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 15.706999425094176,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Left"
+      "time": 10.254407319412278,
+      "locationX": "Middle",
+      "locationY": "Bottom",
+      "hit": "Right"
     },
     {
-      "time": 16.44535199739758,
-      "locationX": "Right",
+      "time": 10.254407319412278,
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 16.44535199739758,
-      "locationX": "Left",
+      "time": 11.79054857756492,
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 17.48749059209576,
+      "time": 11.79054857756492,
       "locationX": "Middle",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 17.552749795478846,
-      "locationX": "Left",
+      "time": 12.632690392630945,
+      "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 17.552749795478846,
+      "time": 12.632690392630945,
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 18.08118520223243,
+      "time": 12.632690392630945,
       "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 18.08118520223243,
-      "locationX": "Right",
+      "time": 13.196689723201166,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 18.467166808652333,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 18.467166808652333,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Bottom"
     },
     {
-      "time": 18.80229544853261,
+      "time": 14.163623831908762,
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 18.80229544853261,
-      "locationX": "Right",
+      "time": 14.163623831908762,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 19.08940195286229,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Bottom"
+      "time": 14.904468022778769,
+      "locationX": "Left",
+      "locationY": "Bottom",
+      "hit": "Right"
     },
     {
-      "time": 19.610947925511432,
+      "time": 14.904468022778769,
       "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
+      "locationY": "Top",
+      "hit": "Top"
     },
     {
-      "time": 20.577313726691973,
+      "time": 15.076668901306924,
       "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 20.577313726691973,
+      "time": 15.504623600585674,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 21.256124418555377,
+      "time": 16.020674591980377,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 21.256124418555377,
+      "time": 16.237665374757697,
       "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
+      "locationY": "Top",
+      "hit": "Top"
     },
     {
-      "time": 21.80897306794497,
-      "locationX": "Middle",
+      "time": 16.237665374757697,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Top"
     },
     {
-      "time": 21.80897306794497,
-      "locationX": "Right",
+      "time": 16.237665374757697,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 22.092022415119235,
+      "time": 16.52588803028317,
       "locationX": "Left",
+      "locationY": "Bottom",
+      "hit": "Top"
+    },
+    {
+      "time": 16.52588803028317,
+      "locationX": "Middle",
+      "locationY": "Top",
+      "hit": "Right"
+    },
+    {
+      "time": 16.52588803028317,
+      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 22.092022415119235,
+      "time": 16.52588803028317,
       "locationX": "Left",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Top"
     },
     {
-      "time": 22.26467153276457,
+      "time": 17.45589380933726,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 22.26467153276457,
+      "time": 17.45589380933726,
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 22.694245293472296,
+      "time": 20.072349773071615,
       "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 22.694245293472296,
-      "locationX": "Right",
+      "time": 20.19281959406167,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
-    },
-    {
-      "time": 22.72782871156872,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Left"
     },
     {
-      "time": 22.72782871156872,
+      "time": 20.412856453134474,
       "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 23.40811653799697,
-      "locationX": "Right",
+      "time": 20.412856453134474,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 23.40811653799697,
+      "time": 20.682734741787858,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 23.49737092230674,
+      "time": 21.483586803522698,
       "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 23.5672461480939,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 23.5672461480939,
-      "locationX": "Right",
-      "locationY": "Top",
+      "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 23.7103635064817,
-      "locationX": "Left",
+      "time": 21.77228896750419,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Right"
-    },
-    {
-      "time": 23.7103635064817,
-      "locationX": "Right",
-      "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 24.130841873792047,
+      "time": 21.91487161333341,
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 24.130841873792047,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Top"
+      "time": 22.038503390203758,
+      "locationX": "Left",
+      "locationY": "Bottom",
+      "hit": "Bottom"
     },
     {
-      "time": 24.449937755360992,
+      "time": 22.038503390203758,
       "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 24.449937755360992,
+      "time": 22.279770130891734,
       "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Bottom"
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 24.47974636036382,
+      "time": 22.484951447651138,
       "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
-    },
-    {
-      "time": 24.47974636036382,
-      "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 24.543334197028102,
+      "time": 22.484951447651138,
       "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Bottom"
+      "locationY": "Bottom",
+      "hit": "Right"
     },
     {
-      "time": 24.543334197028102,
+      "time": 22.484951447651138,
       "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Top"
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 24.61756718899587,
-      "locationX": "Middle",
+      "time": 22.735455492640416,
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 24.61756718899587,
+      "time": 22.735455492640416,
       "locationX": "Right",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 24.85037783383321,
+      "time": 22.735455492640416,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 24.85037783383321,
-      "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 25.417486298554998,
-      "locationX": "Left",
-      "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 26.278345470199636,
+      "time": 24.774103573382124,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 26.278345470199636,
+      "time": 25.476755866269475,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 26.288172702771462,
+      "time": 26.109908205985615,
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 26.288172702771462,
+      "time": 27.480504559940414,
       "locationX": "Left",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 27.303008480883932,
-      "locationX": "Middle",
+      "time": 28.05935156792558,
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 28.406423626492433,
+      "time": 28.74213999873467,
       "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 28.406423626492433,
+      "time": 28.74213999873467,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 29.56505171810965,
+      "time": 28.74213999873467,
       "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 29.56505171810965,
-      "locationX": "Left",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 29.875933328224885,
+      "time": 29.208436855317387,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 29.875933328224885,
-      "locationX": "Left",
       "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 30.579985318970934,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Top"
-    },
-    {
-      "time": 30.579985318970934,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 30.62762418965642,
+      "time": 29.646135175145254,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
-    },
-    {
-      "time": 30.62762418965642,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Left"
     },
     {
-      "time": 30.907660810049055,
+      "time": 29.646135175145254,
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
-    },
-    {
-      "time": 30.907660810049055,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Right"
     },
     {
-      "time": 31.05761083850104,
+      "time": 32.012679816226274,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 31.05761083850104,
-      "locationX": "Middle",
+      "time": 33.03922724256901,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 31.13062882504636,
-      "locationX": "Middle",
-      "locationY": "Bottom",
+      "time": 33.68177602484578,
+      "locationX": "Left",
+      "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 31.13062882504636,
+      "time": 33.68177602484578,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 31.332999198188823,
-      "locationX": "Left",
+      "time": 33.69528509219848,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 31.332999198188823,
+      "time": 33.74770260393567,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Right"
+      "locationY": "Bottom",
+      "hit": "Left"
     },
     {
-      "time": 31.90258352945837,
+      "time": 35.389302601054375,
       "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 31.90258352945837,
+      "time": 36.6741276541993,
       "locationX": "Left",
       "locationY": "Top",
-      "hit": "Top"
+      "hit": "Bottom"
     },
     {
-      "time": 34.06163994588123,
+      "time": 36.6741276541993,
       "locationX": "Middle",
-      "locationY": "Top",
+      "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 34.06163994588123,
-      "locationX": "Right",
+      "time": 36.768382606884934,
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 35.03530642286723,
+      "time": 36.768382606884934,
       "locationX": "Right",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 35.03530642286723,
-      "locationX": "Middle",
+      "time": 36.83232288724522,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Top"
     },
     {
-      "time": 35.267140814946,
+      "time": 37.49863397705622,
       "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Left"
+      "locationY": "Bottom",
+      "hit": "Right"
     },
     {
-      "time": 35.953065951866755,
+      "time": 37.52814152848435,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Top"
     },
     {
-      "time": 35.953065951866755,
-      "locationX": "Right",
+      "time": 37.62363403698233,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Bottom"
     },
     {
-      "time": 37.18586775678975,
+      "time": 37.62363403698233,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 37.18586775678975,
-      "locationX": "Right",
+      "time": 37.84546157719719,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Top"
+    },
+    {
+      "time": 37.923378440829765,
+      "locationX": "Left",
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 37.47226879949931,
+      "time": 37.923378440829765,
       "locationX": "Right",
+      "locationY": "Top",
+      "hit": "Left"
+    },
+    {
+      "time": 38.16574987811619,
+      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 37.47226879949931,
-      "locationX": "Right",
+      "time": 38.723644358098305,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 37.5278028416404,
-      "locationX": "Middle",
+      "time": 38.723644358098305,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Bottom"
     },
     {
-      "time": 37.5278028416404,
+      "time": 38.723644358098305,
       "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 38.23984147703537,
+      "time": 40.26885334981684,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 38.23984147703537,
+      "time": 40.26885334981684,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 38.52253352886479,
-      "locationX": "Right",
+      "time": 40.26885334981684,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 38.670621531133584,
+      "time": 40.3900687913274,
       "locationX": "Middle",
+      "locationY": "Bottom",
+      "hit": "Bottom"
+    },
+    {
+      "time": 41.521389163438904,
+      "locationX": "Left",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 38.670621531133584,
+      "time": 41.58638547859561,
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 39.04659869645557,
+      "time": 41.58638547859561,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 39.04659869645557,
+      "time": 43.560266551495985,
       "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Right"
+      "locationY": "Top",
+      "hit": "Left"
     },
     {
-      "time": 39.30403754137935,
-      "locationX": "Left",
+      "time": 43.560266551495985,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Top"
+      "hit": "Bottom"
     },
     {
-      "time": 39.30403754137935,
+      "time": 43.70103143905158,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Right"
-    },
-    {
-      "time": 39.77539277273359,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Top"
     },
     {
-      "time": 40.03545596636363,
+      "time": 43.70103143905158,
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 40.03545596636363,
-      "locationX": "Middle",
+      "time": 44.01482820982654,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 40.49981303003739,
+      "time": 44.66899681719202,
       "locationX": "Middle",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 40.49981303003739,
+      "time": 44.76506493680684,
       "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Bottom"
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 40.5687376195273,
+      "time": 44.76506493680684,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 41.63189414915965,
+      "time": 46.72523828455848,
       "locationX": "Right",
+      "locationY": "Bottom",
+      "hit": "Right"
+    },
+    {
+      "time": 46.72523828455848,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 41.63189414915965,
+      "time": 48.108427359466965,
       "locationX": "Right",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 41.976396026355395,
-      "locationX": "Middle",
+      "time": 48.14658582137631,
+      "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 41.976396026355395,
+      "time": 48.32394856835831,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Bottom"
+      "locationY": "Bottom",
+      "hit": "Left"
     },
     {
-      "time": 42.02395243057712,
+      "time": 48.32394856835831,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 42.02395243057712,
-      "locationX": "Left",
+      "time": 48.93707160370508,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 42.17242328731372,
-      "locationX": "Middle",
+      "time": 49.03459511616791,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 43.10627482851676,
+      "time": 49.03459511616791,
       "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 43.98545451730643,
-      "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 43.98545451730643,
+      "time": 49.03459511616791,
       "locationX": "Left",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 44.58226823365625,
-      "locationX": "Right",
+      "time": 49.03729280375371,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 44.58226823365625,
+      "time": 49.05694825196442,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 44.982120361889706,
-      "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 45.173307967730985,
-      "locationX": "Left",
+      "time": 49.107189588680754,
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 45.173307967730985,
+      "time": 49.107189588680754,
       "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 45.201907965996185,
-      "locationX": "Right",
-      "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 45.201907965996185,
+      "time": 49.77957465725793,
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 46.34971713727109,
+      "time": 51.96254102894079,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 46.34971713727109,
-      "locationX": "Right",
+      "time": 52.381742530404516,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 46.79312149681888,
+      "time": 54.50203315535151,
       "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 46.79312149681888,
-      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 47.02409136419999,
+      "time": 56.96388919131674,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 47.02409136419999,
-      "locationX": "Middle",
+      "time": 57.26994040364676,
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 47.428884936736004,
+      "time": 57.947848456110556,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 47.50536003126955,
-      "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 47.50536003126955,
+      "time": 59.3756915178939,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 48.06357747407164,
+      "time": 59.69346128969359,
       "locationX": "Middle",
-      "locationY": "Top",
+      "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 48.06357747407164,
+      "time": 60.29766285294519,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Bottom"
-    },
-    {
-      "time": 48.285955745716365,
-      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 48.285955745716365,
-      "locationX": "Left",
+      "time": 60.29766285294519,
+      "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 48.85387067174129,
-      "locationX": "Middle",
+      "time": 61.051282035191036,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 48.85387067174129,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Top"
+      "time": 63.05822302518312,
+      "locationX": "Right",
+      "locationY": "Bottom",
+      "hit": "Left"
     },
     {
-      "time": 51.780167551493534,
+      "time": 63.05822302518312,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 51.780167551493534,
+      "time": 63.21029659172967,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Bottom"
+      "locationY": "Bottom",
+      "hit": "Left"
     },
     {
-      "time": 51.92850441006528,
-      "locationX": "Middle",
+      "time": 64.02286595375244,
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 51.92850441006528,
+      "time": 64.02286595375244,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 53.154712653499374,
-      "locationX": "Left",
+      "time": 64.02286595375244,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Right"
-    },
-    {
-      "time": 53.154712653499374,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Top"
     },
     {
-      "time": 53.90225350935842,
-      "locationX": "Right",
+      "time": 64.56817607163448,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
-    },
-    {
-      "time": 53.90225350935842,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Top"
     },
     {
-      "time": 54.068000366360046,
-      "locationX": "Left",
+      "time": 64.56817607163448,
+      "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 54.48538537884007,
+      "time": 64.67566885175914,
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 54.48538537884007,
+      "time": 65.08742569808469,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Right"
+      "locationY": "Bottom",
+      "hit": "Top"
     },
     {
-      "time": 54.56666915269466,
+      "time": 68.62685215757212,
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 55.01099535042258,
+      "time": 68.62685215757212,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 55.01099535042258,
-      "locationX": "Left",
-      "locationY": "Top",
       "hit": "Top"
-    },
-    {
-      "time": 55.47556646802621,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Left"
     },
     {
-      "time": 55.47556646802621,
+      "time": 69.11920893071246,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 56.13026713209439,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 56.13026713209439,
+      "time": 69.11920893071246,
       "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Bottom"
-    },
-    {
-      "time": 56.23049618267644,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Bottom"
-    },
-    {
-      "time": 56.70636934304149,
-      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 56.70636934304149,
-      "locationX": "Left",
+      "time": 70.79875291671819,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Top"
     },
     {
-      "time": 57.066777429137574,
+      "time": 71.64561492540506,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 57.066777429137574,
-      "locationX": "Left",
-      "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 58.7633661950821,
+      "time": 72.12098055492856,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 58.98361800082404,
-      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 58.98361800082404,
+      "time": 72.33985613814023,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 59.23045916767216,
+      "time": 72.33985613814023,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 60.58378962826396,
+      "time": 73.8692813085035,
       "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Top"
-    },
-    {
-      "time": 60.58378962826396,
-      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 60.77582301434007,
+      "time": 74.28524918366712,
       "locationX": "Right",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 60.77582301434007,
+      "time": 75.32073538420627,
       "locationX": "Left",
-      "locationY": "Top",
+      "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 60.840657157043466,
+      "time": 75.87689041423674,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Right"
+      "locationY": "Bottom",
+      "hit": "Left"
     },
     {
-      "time": 60.963174631548654,
+      "time": 75.87689041423674,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 61.099396604738814,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 61.099396604738814,
-      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 62.56445953862204,
-      "locationX": "Right",
+      "time": 76.30369497688793,
+      "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 62.84921838112997,
+      "time": 76.51440307769046,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Left"
+      "locationY": "Bottom",
+      "hit": "Right"
     },
     {
-      "time": 62.84921838112997,
+      "time": 76.51440307769046,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 63.05526364485593,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 63.30921467770456,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Left"
+      "time": 76.51440307769046,
+      "locationX": "Middle",
+      "locationY": "Bottom",
+      "hit": "Top"
     },
     {
-      "time": 63.30921467770456,
+      "time": 76.79405630600426,
       "locationX": "Middle",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 63.36692592627288,
+      "time": 76.93210635556883,
       "locationX": "Left",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 63.36692592627288,
+      "time": 76.98958174138733,
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 64.22310453486773,
-      "locationX": "Right",
+      "time": 77.54430225135786,
+      "locationX": "Middle",
+      "locationY": "Bottom",
+      "hit": "Left"
+    },
+    {
+      "time": 77.60021695407295,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 64.54859931129612,
+      "time": 77.60021695407295,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 64.54859931129612,
-      "locationX": "Middle",
+      "time": 77.63725957649176,
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 64.75489905321129,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
+      "time": 77.63725957649176,
+      "locationX": "Middle",
+      "locationY": "Top",
+      "hit": "Bottom"
     },
     {
-      "time": 64.75489905321129,
+      "time": 77.63725957649176,
       "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
-    },
-    {
-      "time": 65.86066806607272,
-      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 65.86066806607272,
+      "time": 78.3939751440675,
       "locationX": "Right",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Top"
+    },
+    {
+      "time": 79.55496859761273,
+      "locationX": "Left",
+      "locationY": "Top",
+      "hit": "Left"
     },
     {
-      "time": 67.6255153518928,
+      "time": 80.30426406382585,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 67.6255153518928,
+      "time": 80.30426406382585,
       "locationX": "Middle",
       "locationY": "Top",
+      "hit": "Top"
+    },
+    {
+      "time": 80.42887988737299,
+      "locationX": "Right",
+      "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 68.2839424388552,
-      "locationX": "Left",
+      "time": 80.42887988737299,
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 69.13271163017701,
+      "time": 81.59771343461385,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 69.13271163017701,
+      "time": 81.59771343461385,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 69.8016083620607,
-      "locationX": "Left",
-      "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 73.07260341502466,
-      "locationX": "Left",
+      "time": 83.73660839721845,
+      "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 74.29206165928287,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Right"
+      "time": 85.29999771435783,
+      "locationX": "Right",
+      "locationY": "Top",
+      "hit": "Left"
     },
     {
-      "time": 74.29206165928287,
+      "time": 85.29999771435783,
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 75.01914959295571,
-      "locationX": "Left",
+      "time": 85.61297902960446,
+      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 75.01914959295571,
-      "locationX": "Right",
+      "time": 86.41289673225737,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 75.7482219986133,
-      "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 76.82728128911512,
-      "locationX": "Middle",
+      "time": 86.41289673225737,
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 76.82728128911512,
+      "time": 86.61229942844888,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 76.94865400840678,
-      "locationX": "Left",
+      "time": 86.85170022404374,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 76.94865400840678,
+      "time": 87.14098698180348,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 78.32648565065979,
+      "time": 87.8851540967554,
       "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Top"
+      "locationY": "Top",
+      "hit": "Bottom"
     },
     {
-      "time": 78.32648565065979,
+      "time": 87.8851540967554,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
-    },
-    {
-      "time": 78.35905546648875,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Left"
     },
     {
-      "time": 78.35905546648875,
+      "time": 87.8851540967554,
       "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 78.3800015852085,
-      "locationX": "Left",
+      "time": 88.88463121703826,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 78.3800015852085,
-      "locationX": "Left",
+      "time": 89.21385793733813,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 79.0852136475378,
+      "time": 89.26709101118166,
       "locationX": "Middle",
-      "locationY": "Top",
+      "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 80.85838461908352,
+      "time": 89.26709101118166,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Right"
+      "locationY": "Bottom",
+      "hit": "Bottom"
     },
     {
-      "time": 83.02837024740732,
+      "time": 89.90586336551547,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 83.62375218203228,
+      "time": 89.90586336551547,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Bottom"
+    },
+    {
+      "time": 90.22239971558861,
+      "locationX": "Right",
+      "locationY": "Top",
+      "hit": "Top"
     },
     {
-      "time": 83.62375218203228,
+      "time": 90.22239971558861,
       "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 84.02998978869132,
+      "time": 90.22239971558861,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Top"
     },
     {
-      "time": 84.02998978869132,
-      "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Left"
+      "time": 90.7151827001242,
+      "locationX": "Middle",
+      "locationY": "Bottom",
+      "hit": "Top"
     },
     {
-      "time": 84.09875506689795,
+      "time": 91.20379077304868,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 84.09875506689795,
+      "time": 91.20379077304868,
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 84.67333599183078,
-      "locationX": "Right",
+      "time": 91.59512379234927,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 84.67333599183078,
-      "locationX": "Left",
+      "time": 92.27144474940985,
+      "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 85.09078006211125,
+      "time": 92.27144474940985,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 85.151186018384,
-      "locationX": "Left",
+      "time": 92.73409907898878,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 85.151186018384,
-      "locationX": "Right",
+      "time": 92.83425350675232,
+      "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 85.74804722726768,
-      "locationX": "Left",
+      "time": 94.97001738754933,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 86.35055006275111,
+      "time": 94.97001738754933,
       "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Top"
-    },
-    {
-      "time": 86.35055006275111,
-      "locationX": "Left",
       "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 86.80443718091469,
+      "time": 94.97001738754933,
       "locationX": "Left",
       "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 86.80443718091469,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 86.88170470679714,
-      "locationX": "Left",
-      "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 87.70607348997854,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Top"
+      "time": 95.24315144508834,
+      "locationX": "Right",
+      "locationY": "Top",
+      "hit": "Left"
     },
     {
-      "time": 88.68405317688381,
+      "time": 95.84273698811974,
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 88.78513245879506,
-      "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Top"
+      "time": 96.10393346747723,
+      "locationX": "Right",
+      "locationY": "Bottom",
+      "hit": "Bottom"
     },
     {
-      "time": 88.78513245879506,
+      "time": 96.10393346747723,
       "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Left"
-    },
-    {
-      "time": 88.88802336892411,
-      "locationX": "Right",
-      "locationY": "Top",
+      "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 89.2234940966005,
+      "time": 96.10393346747723,
       "locationX": "Left",
-      "locationY": "Bottom",
+      "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 90.81385198956919,
+      "time": 97.03051608442411,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
-    },
-    {
-      "time": 90.81385198956919,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 91.35984144147929,
-      "locationX": "Left",
-      "locationY": "Bottom",
       "hit": "Top"
     },
     {
-      "time": 91.35984144147929,
+      "time": 97.08708110000248,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 93.13600529236689,
+      "time": 97.08708110000248,
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 93.13600529236689,
+      "time": 97.18424185082597,
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 93.55948934807422,
+      "time": 97.18424185082597,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Bottom"
-    },
-    {
-      "time": 93.55948934807422,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Top"
     },
     {
-      "time": 93.5811854404621,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 93.5811854404621,
-      "locationX": "Left",
+      "time": 97.4472793859545,
+      "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Right"
-    },
-    {
-      "time": 95.81026188460648,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 96.27925747435081,
+      "time": 97.65365546375274,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 96.27925747435081,
+      "time": 97.73588008611887,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Bottom"
+      "locationY": "Bottom",
+      "hit": "Left"
     },
     {
-      "time": 97.39208883072531,
+      "time": 97.84238222554185,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Right"
     },
     {
-      "time": 98.90786047273079,
+      "time": 98.30047478309822,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Right"
+      "hit": "Top"
     },
     {
-      "time": 98.90786047273079,
+      "time": 98.43774134496302,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Left"
-    },
-    {
-      "time": 99.00646307327744,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Top"
     },
     {
-      "time": 99.15250451422396,
+      "time": 98.92483053508346,
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 99.15250451422396,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Right"
+      "time": 98.92483053508346,
+      "locationX": "Left",
+      "locationY": "Top",
+      "hit": "Left"
     },
     {
-      "time": 100.94919962111467,
+      "time": 99.12161357299583,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 100.94919962111467,
-      "locationX": "Left",
+      "time": 99.55142328296657,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 101.04666912197285,
+      "time": 99.80796380721378,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Right"
     },
     {
-      "time": 101.04666912197285,
+      "time": 100.27888966850999,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Left"
-    },
-    {
-      "time": 101.61479462550301,
-      "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Right"
+      "hit": "Top"
     },
     {
-      "time": 101.9100359765263,
+      "time": 100.27888966850999,
       "locationX": "Right",
-      "locationY": "Top",
-      "hit": "Right"
+      "locationY": "Bottom",
+      "hit": "Bottom"
     },
     {
-      "time": 102.80171313811148,
+      "time": 101.00763105631016,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Bottom"
     },
     {
-      "time": 102.80171313811148,
-      "locationX": "Left",
+      "time": 101.70077335431284,
+      "locationX": "Right",
+      "locationY": "Bottom",
+      "hit": "Top"
+    },
+    {
+      "time": 101.8475292675351,
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Top"
     },
     {
-      "time": 102.94144241333514,
+      "time": 101.8475292675351,
       "locationX": "Right",
       "locationY": "Bottom",
-      "hit": "Right"
+      "hit": "Left"
     },
     {
-      "time": 102.94144241333514,
+      "time": 101.8475292675351,
       "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Left"
+      "locationY": "Bottom",
+      "hit": "Right"
     },
     {
-      "time": 102.95502746106898,
+      "time": 102.08764696133241,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 102.95502746106898,
+      "time": 102.08764696133241,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Top"
+      "hit": "Right"
     },
     {
-      "time": 103.63864520106536,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Top"
+      "time": 103.07280586721649,
+      "locationX": "Left",
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 103.63864520106536,
-      "locationX": "Right",
+      "time": 104.2363429003802,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Bottom"
-    },
-    {
-      "time": 103.65179477911333,
-      "locationX": "Right",
-      "locationY": "Top",
       "hit": "Left"
     },
     {
-      "time": 104.46706876256921,
-      "locationX": "Right",
+      "time": 104.61983442417876,
+      "locationX": "Middle",
       "locationY": "Top",
-      "hit": "Bottom"
+      "hit": "Left"
     },
     {
-      "time": 104.46706876256921,
+      "time": 105.03845150914675,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 104.59696733875384,
-      "locationX": "Right",
+      "time": 105.39755874386059,
+      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 104.59696733875384,
+      "time": 106.23864197257562,
       "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Left"
     },
     {
-      "time": 104.67821515777887,
+      "time": 106.39906177053103,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
-      "time": 104.67821515777887,
+      "time": 106.43039477925485,
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
-      "time": 105.26275111300902,
+      "time": 106.43039477925485,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Bottom"
     },
     {
-      "time": 107.59681384025606,
-      "locationX": "Right",
+      "time": 106.84180598341416,
+      "locationX": "Left",
       "locationY": "Bottom",
-      "hit": "Top"
+      "hit": "Bottom"
+    },
+    {
+      "time": 106.8678122306669,
+      "locationX": "Right",
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 108.29681499179715,
+      "time": 107.1465804487865,
       "locationX": "Middle",
       "locationY": "Bottom",
-      "hit": "Left"
+      "hit": "Top"
     },
     {
-      "time": 108.29681499179715,
-      "locationX": "Left",
+      "time": 107.16976127682742,
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
-      "time": 109.30796908054747,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Top"
+      "time": 108.07696262093963,
+      "locationX": "Middle",
+      "locationY": "Top",
+      "hit": "Right"
     },
     {
-      "time": 109.34839675466964,
-      "locationX": "Right",
+      "time": 108.82348393420644,
+      "locationX": "Middle",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
-      "time": 109.34839675466964,
+      "time": 108.82348393420644,
       "locationX": "Right",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Right"
     },
     {
-      "time": 109.52227195823957,
+      "time": 109.49514559668899,
       "locationX": "Middle",
+      "locationY": "Bottom",
+      "hit": "Top"
+    },
+    {
+      "time": 109.53990594282004,
+      "locationX": "Right",
       "locationY": "Top",
-      "hit": "Left"
+      "hit": "Bottom"
+    },
+    {
+      "time": 109.54573587100505,
+      "locationX": "Left",
+      "locationY": "Top",
+      "hit": "Right"
     }
   ]
 }
