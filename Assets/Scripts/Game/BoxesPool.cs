@@ -21,7 +21,10 @@ public class BoxesPool : MonoBehaviour {
     }
 
     IEnumerator EndLevel() {
+        Debug.LogWarning(PlayerPrefs.GetInt("song.duration"));
+        Debug.LogWarning(Time.time);
         yield return new WaitForSeconds(PlayerPrefs.GetInt("song.duration"));
+        Debug.LogWarning(Time.time);
         Score.FinishGame();
     }
 
@@ -29,6 +32,7 @@ public class BoxesPool : MonoBehaviour {
         float oldTime = 0;
         foreach (SongBeat beat in _beatData) {
             if (beat.time <= _spawnDelay) continue;
+            if (beat.time - _spawnDelay >= PlayerPrefs.GetInt("song.duration") - 1) break;
             yield return new WaitForSeconds(beat.time - _spawnDelay - oldTime);
             oldTime = beat.time - _spawnDelay;
             InstantiateBox(beat);

@@ -21,7 +21,7 @@ public class AudioManager : MonoBehaviour {
         else { Destroy(gameObject); return; }
         DontDestroyOnLoad(gameObject);
 
-        //LoadSFXClips();
+        LoadSFXClips();
         LoadMusicClips();
     }
 
