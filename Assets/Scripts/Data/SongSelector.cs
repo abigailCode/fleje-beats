@@ -43,7 +43,7 @@ public class SongSelector : MonoBehaviour {
                 _levelsPanel.SetActive(false);
                 _resumePanel.SetActive(true);
 
-                _resumePanel.transform.GetChild(0).GetComponent<TMP_Text>().text = $"Song: {$"Song: {PlayerPrefs.GetString("song.title")}"}";
+                _resumePanel.transform.GetChild(0).GetComponent<TMP_Text>().text = $"Song: {PlayerPrefs.GetString("song.title")}";
                 _resumePanel.transform.GetChild(1).GetComponent<TMP_Text>().text = $"Level: {PlayerPrefs.GetString("song.level")}";
             }
     }
