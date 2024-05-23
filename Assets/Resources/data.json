@@ -12,7 +12,12 @@
                     "levelRanking": [
                         {
                             "username": "Kili",
-                            "score": 510,
+                            "score": 990,
+                            "max_combo": 23
+                        },
+                        {
+                            "username": "Pedro",
+                            "score": 520,
                             "max_combo": 8
                         },
                         {
@@ -21,19 +26,14 @@
                             "max_combo": 8
                         },
                         {
+                            "username": "bge",
+                            "score": 400,
+                            "max_combo": 6
+                        },
+                        {
                             "username": "DESTHRONE",
                             "score": 121,
                             "max_combo": 82
-                        },
-                        {
-                            "username": "abi",
-                            "score": 48,
-                            "max_combo": 5
-                        },
-                        {
-                            "username": "Anonymous",
-                            "score": 27,
-                            "max_combo": 0
                         }
                     ]
                 },
@@ -41,6 +41,11 @@
                     "level": "MEDIUM",
                     "path": "drivebreakbeat/level2",
                     "levelRanking": [
+                        {
+                            "username": "Pedro",
+                            "score": 920,
+                            "max_combo": 8
+                        },
                         {
                             "username": "Kili",
                             "score": 160,
@@ -83,8 +88,8 @@
                     "levelRanking": [
                         {
                             "username": "Kili",
-                            "score": 780,
-                            "max_combo": 18
+                            "score": 870,
+                            "max_combo": 20
                         }
                     ]
                 },
