@@ -27,6 +27,7 @@ public class AudioManager : MonoBehaviour {
 
     void LoadSFXClips() {
        sfxClips["gameOver"] = Resources.Load<AudioClip>("SFX/GameOver");
+       sfxClips["victory"] = Resources.Load<AudioClip>("SFX/Victory");
     }
 
     void LoadMusicClips() {
