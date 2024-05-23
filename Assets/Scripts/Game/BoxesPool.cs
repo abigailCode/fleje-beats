@@ -21,10 +21,7 @@ public class BoxesPool : MonoBehaviour {
     }
 
     IEnumerator EndLevel() {
-        Debug.LogWarning(PlayerPrefs.GetInt("song.duration"));
-        Debug.LogWarning(Time.time);
         yield return new WaitForSeconds(PlayerPrefs.GetInt("song.duration"));
-        Debug.LogWarning(Time.time);
         Score.FinishGame();
     }
 
