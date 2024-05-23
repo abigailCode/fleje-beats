@@ -29,7 +29,7 @@ public class BoxesPool : MonoBehaviour {
         float oldTime = 0;
         foreach (SongBeat beat in _beatData) {
             if (beat.time <= _spawnDelay) continue;
-            if (beat.time - _spawnDelay >= PlayerPrefs.GetInt("song.duration") - 1) break;
+            if (beat.time + _spawnDelay >= PlayerPrefs.GetInt("song.duration") - 1) break;
             yield return new WaitForSeconds(beat.time - _spawnDelay - oldTime);
             oldTime = beat.time - _spawnDelay;
             InstantiateBox(beat);
