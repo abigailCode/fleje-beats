@@ -23,7 +23,7 @@ public class SlicingBehaviour : MonoBehaviour {
         audioSources = GetComponents<AudioSource>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         bool hasHit = Physics.Raycast(_startSlicePoint.position, _endSlicePoint.position, out RaycastHit hit, _sliceLayer);
 
