@@ -47,7 +47,10 @@ public class Score : MonoBehaviour {
         AudioManager.instance.UnloadSong();
     }
 
-    public static void FinishGame() => OnGameFinished.Invoke();
+    public static void FinishGame() {
+        AudioManager.instance.PlaySFX("victory");
+        OnGameFinished.Invoke();
+    }
 
     IEnumerator ShowDouble() {
         if (_doubleText.enabled) yield return null;

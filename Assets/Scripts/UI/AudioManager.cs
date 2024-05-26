@@ -21,12 +21,13 @@ public class AudioManager : MonoBehaviour {
         else { Destroy(gameObject); return; }
         DontDestroyOnLoad(gameObject);
 
-        //LoadSFXClips();
+        LoadSFXClips();
         LoadMusicClips();
     }
 
     void LoadSFXClips() {
-       // sfxClips["0"] = Resources.Load<AudioClip>("SFX/BackgroundMusic_1");
+       sfxClips["gameOver"] = Resources.Load<AudioClip>("SFX/GameOver");
+       sfxClips["victory"] = Resources.Load<AudioClip>("SFX/Victory");
     }
 
     void LoadMusicClips() {

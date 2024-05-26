@@ -4,31 +4,36 @@
             "title": "Drive Breakbeat",
             "artist": "Rockot",
             "path": "drivebreakbeat/track",
-            "duration": 102,
+            "duration": 109,
             "levels": [
                 {
                     "level": "EASY",
                     "path": "drivebreakbeat/level1",
                     "levelRanking": [
                         {
+                            "username": "Kili",
+                            "score": 990,
+                            "max_combo": 23
+                        },
+                        {
+                            "username": "Pedro",
+                            "score": 520,
+                            "max_combo": 8
+                        },
+                        {
+                            "username": "Bidghj",
+                            "score": 470,
+                            "max_combo": 8
+                        },
+                        {
+                            "username": "bge",
+                            "score": 400,
+                            "max_combo": 6
+                        },
+                        {
                             "username": "DESTHRONE",
                             "score": 121,
                             "max_combo": 82
-                        },
-                        {
-                            "username": "Kili",
-                            "score": 98,
-                            "max_combo": 69
-                        },
-                        {
-                            "username": "abi",
-                            "score": 48,
-                            "max_combo": 5
-                        },
-                        {
-                            "username": "Anonymous",
-                            "score": 27,
-                            "max_combo": 0
                         }
                     ]
                 },
@@ -36,6 +41,11 @@
                     "level": "MEDIUM",
                     "path": "drivebreakbeat/level2",
                     "levelRanking": [
+                        {
+                            "username": "Pedro",
+                            "score": 920,
+                            "max_combo": 8
+                        },
                         {
                             "username": "Kili",
                             "score": 160,
@@ -56,6 +66,41 @@
                 {
                     "level": "HARD",
                     "path": "drivebreakbeat/level3",
+                    "levelRanking": [
+                        {
+                            "username": "Kili",
+                            "score": 1260,
+                            "max_combo": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "La Banda de Agaete",
+            "artist": "Isaac",
+            "path": "labandadeagaete/track",
+            "duration": 99,
+            "levels": [
+                {
+                    "level": "EASY",
+                    "path": "labandadeagaete/level1",
+                    "levelRanking": [
+                        {
+                            "username": "Kili",
+                            "score": 870,
+                            "max_combo": 20
+                        }
+                    ]
+                },
+                {
+                    "level": "MEDIUM",
+                    "path": "labandadeagaete/level2",
+                    "levelRanking": []
+                },
+                {
+                    "level": "HARD",
+                    "path": "labandadeagaete/level3",
                     "levelRanking": []
                 }
             ]
@@ -64,12 +109,17 @@
             "title": "Secret Theme",
             "artist": "Sr_Peuva_",
             "path": "secrettheme/track",
-            "duration": 78,
+            "duration": 79,
             "levels": [
                 {
                     "level": "EASY",
                     "path": "secrettheme/level1",
                     "levelRanking": [
+                        {
+                            "username": "Kil",
+                            "score": 590,
+                            "max_combo": 24
+                        },
                         {
                             "username": "Kili",
                             "score": 93,

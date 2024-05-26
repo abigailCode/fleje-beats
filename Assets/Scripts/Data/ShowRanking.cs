@@ -7,6 +7,7 @@ public class ShowRanking : MonoBehaviour {
     [SerializeField] GameObject _rankingContent;
     [SerializeField] GameObject _keyboard;
     [SerializeField] GameObject _inputText;
+    bool _hasRegistered = false;
 
     void Awake() {
         SetUp();
@@ -48,8 +49,11 @@ public class ShowRanking : MonoBehaviour {
     }
 
     public void Submit() {
+        if (_hasRegistered) return;
+        _keyboard.SetActive(false);
         string name = _inputText.GetComponent<TMP_Text>().text;
         PlayerPrefs.SetString("username", name);
         UpdateRanking();
+        _hasRegistered = true;
     }
 }

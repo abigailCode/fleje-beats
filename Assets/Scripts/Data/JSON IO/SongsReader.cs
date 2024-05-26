@@ -7,7 +7,6 @@ public class SongsReader {
     public SongDataList ReadSongs() {
         // Try to load from persistentDataPath first
         string persistentDataPath = Path.Combine(Application.persistentDataPath, _songsListPath + ".json");
-        Debug.Log(persistentDataPath);
         if (File.Exists(persistentDataPath)) {
             string jsonData = File.ReadAllText(persistentDataPath);
             SongDataList songDataList = JsonUtility.FromJson<SongDataList>(jsonData);

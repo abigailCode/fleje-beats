@@ -13,8 +13,6 @@ public class BoundBehaviour : MonoBehaviour {
         if (other.gameObject.CompareTag("Box")) {
             if (++_boxesLost == 5) StartCoroutine(Lose());
             _scoreCanvas.SendMessage("ResetCombo");
-            
-
             other.transform.parent.SendMessage("DestroyBox");
         }
     }
@@ -23,7 +21,7 @@ public class BoundBehaviour : MonoBehaviour {
         GameObject boxesSpawn = GameObject.Find("BoxesSpawn");
         boxesSpawn.SendMessage("StopSpawn");
         boxesSpawn.BroadcastMessage("DestroyBox");
-        //Lose sound
+        AudioManager.instance.PlaySFX("gameOver");
         _loseCanvas.SetActive(true);
         yield return new WaitForSeconds(2);
         SCManager.instance.LoadScene("Menu");
