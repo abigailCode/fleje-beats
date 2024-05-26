@@ -10,6 +10,7 @@ public class SlicingBehaviour : MonoBehaviour {
     [SerializeField] VelocityEstimator _estimator;
     [SerializeField] Transform _startSlicePoint, _endSlicePoint;
     [SerializeField] ParticleSystem _electricityParticle;
+    [SerializeField] LayerMask _sliceLayer;
     GameObject _scoreCanvas;
     AudioSource[] audioSources;
 
@@ -20,6 +21,56 @@ public class SlicingBehaviour : MonoBehaviour {
     void Start() {
         _scoreCanvas = GameObject.Find("ScoreCanvas");
         audioSources = GetComponents<AudioSource>();
+    }
+
+    private void FixedUpdate()
+    {
+        bool hasHit = Physics.Raycast(_startSlicePoint.position, _endSlicePoint.position, out RaycastHit hit, _sliceLayer);
+
+        if (hasHit)
+        {
+            Debug.Log("HUACALA" + hit.collider.gameObject.name);
+            if (hit.collider.CompareTag("CorrectHitbox"))
+            {
+                Debug.Log("HUACALA 1111" + hit.collider.gameObject.name);
+
+                CorrectSlice(hit.collider.gameObject);
+            }
+            else if(hit.collider.CompareTag("Box"))
+            {
+
+                Debug.Log("HUACALA 2222" + hit.collider.gameObject.name);
+
+                WrongSlice(hit.collider.gameObject);
+            }
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("COLLIDER" + other.gameObject.name);
+
+        if (other != null)
+        {
+            if (other.CompareTag("CorrectHitbox"))
+            {
+                Debug.Log("COLLIDER11111" + other.gameObject.name);
+
+                CorrectSlice(other.gameObject);
+            }
+            if (other.CompareTag("Box"))
+            {
+                Debug.Log("COLLIDER2222" + other.gameObject.name);
+
+                WrongSlice(other.gameObject);
+            }
+        }
+        OnHandsVibrating?.Invoke();
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        OnHandsVibrating?.Invoke();
     }
 
     void Slice(GameObject target) {
@@ -58,35 +109,29 @@ public class SlicingBehaviour : MonoBehaviour {
         collider.isTrigger = true;
     }
 
-    void OnTriggerEnter(Collider other) {
-        if (other != null) {
-            if (other.CompareTag("CorrectHitbox")) {
-                //other.transform.parent.Find("ElectricityParticle").gameObject.GetComponent<ParticleSystem>().Play();
-                Transform body = other.transform.parent.Find("Body");
-                body.GetComponent<BoxCollider>().enabled = false;
-                _scoreCanvas.SendMessage("IncreaseScore");
-                Slice(body.gameObject);
-                audioSources[0].Play();
-            }
-            if (other.CompareTag("Box")) {
-                //other.transform.parent.Find("ElectricityParticle").gameObject.GetComponent<ParticleSystem>().Play();
-                Transform correctHitbox = other.transform.parent.Find("CorrectHitbox");
-                correctHitbox.GetComponent<BoxCollider>().enabled = false;
-                _scoreCanvas.SendMessage("ResetCombo");
-                Slice(other.gameObject);
-                audioSources[1].Play();
-            }
-        }
-        OnHandsVibrating?.Invoke();
-    }
-
-    void OnCollisionEnter(Collision collision) {
-        OnHandsVibrating?.Invoke();
-    }
+  
 
     IEnumerator DestroySlicedObjects(GameObject upperHull, GameObject lowerHull) {
         yield return new WaitForSeconds(2);
         Destroy(upperHull);
         Destroy(lowerHull);
+    }
+
+    public void CorrectSlice(GameObject other)
+    {
+        Transform body = other.transform.parent.Find("Body");
+        body.GetComponent<BoxCollider>().enabled = false;
+        _scoreCanvas.SendMessage("IncreaseScore");
+        Slice(body.gameObject);
+        audioSources[0].Play();
+    }
+
+    public void WrongSlice(GameObject other)
+    {
+        Transform correctHitbox = other.transform.parent.Find("CorrectHitbox");
+        correctHitbox.GetComponent<BoxCollider>().enabled = false;
+        _scoreCanvas.SendMessage("ResetCombo");
+        Slice(other.gameObject);
+        audioSources[1].Play();
     }
 }

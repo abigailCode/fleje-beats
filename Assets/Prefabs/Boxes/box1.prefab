@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4688270182012372351}
   - component: {fileID: 1607551272187461034}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CorrectHitbox
   m_TagString: CorrectHitbox
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 1903686641827580825}
   - component: {fileID: 8029158381029054278}
   - component: {fileID: 8642509194267182741}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body
   m_TagString: Box
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 1173694687089224791}
   - component: {fileID: 8056837254968622636}
   - component: {fileID: 4464903696276951164}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
