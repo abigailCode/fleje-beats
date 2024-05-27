@@ -38,8 +38,8 @@ public class BoxesPool : MonoBehaviour {
 
     float GetLocation(string location, string type) {
         // X Direction
-        float LEFT_LOCATION = -0.39f;
-        float RIGHT_LOCATION = 0.456112f;
+        float LEFT_LOCATION = -0.45f;
+        float RIGHT_LOCATION = 0.566112f;
         float CENTER_LOCATION = (-0.39f + 0.456112f) / 2;
 
         // Y Direction

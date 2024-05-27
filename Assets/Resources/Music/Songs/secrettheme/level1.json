@@ -14,19 +14,19 @@
     },
     {
       "time": 3.163267,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
       "time": 4.258781,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Right"
     },
     {
       "time": 4.258781,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
@@ -344,7 +344,7 @@
     },
     {
       "time": 64.795544,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
     },

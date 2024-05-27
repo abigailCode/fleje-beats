@@ -2,7 +2,7 @@
   "beatData": [
     {
       "time": 2.823361,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },
@@ -662,13 +662,13 @@
     },
     {
       "time": 80.100193,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
     {
       "time": 80.100193,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
@@ -740,13 +740,13 @@
     },
     {
       "time": 89.444813,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
     {
       "time": 89.444813,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },

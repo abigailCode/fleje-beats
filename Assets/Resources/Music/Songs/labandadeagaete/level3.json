@@ -32,7 +32,7 @@
     },
     {
       "time": 4.364732,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
@@ -44,7 +44,7 @@
     },
     {
       "time": 4.896876,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Top"
     },
@@ -59,18 +59,6 @@
       "locationX": "Right",
       "locationY": "Top",
       "hit": "Top"
-    },
-    {
-      "time": 5.190672,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 5.190672,
-      "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Bottom"
     },
     {
       "time": 5.926628,
@@ -110,7 +98,7 @@
     },
     {
       "time": 7.829532,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
@@ -128,13 +116,13 @@
     },
     {
       "time": 9.547976,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Top"
     },
     {
       "time": 9.97799,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Right"
     },
@@ -230,7 +218,7 @@
     },
     {
       "time": 15.459832,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Right"
     },
@@ -320,7 +308,7 @@
     },
     {
       "time": 20.30861,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
@@ -368,7 +356,7 @@
     },
     {
       "time": 23.947432,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
     },
@@ -499,12 +487,6 @@
       "hit": "Bottom"
     },
     {
-      "time": 35.729708,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Top"
-    },
-    {
       "time": 36.166497,
       "locationX": "Left",
       "locationY": "Bottom",
@@ -542,12 +524,6 @@
     },
     {
       "time": 38.500667,
-      "locationX": "Middle",
-      "locationY": "Top",
-      "hit": "Top"
-    },
-    {
-      "time": 38.500667,
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
@@ -563,18 +539,6 @@
       "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
-    },
-    {
-      "time": 39.335976,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Left"
-    },
-    {
-      "time": 39.77349,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Bottom"
     },
     {
       "time": 39.77349,
@@ -596,7 +560,7 @@
     },
     {
       "time": 41.533251,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
     },
@@ -605,12 +569,6 @@
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
-    },
-    {
-      "time": 43.305774,
-      "locationX": "Left",
-      "locationY": "Bottom",
-      "hit": "Top"
     },
     {
       "time": 44.178942,
@@ -635,18 +593,6 @@
       "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
-    },
-    {
-      "time": 46.937745,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Right"
-    },
-    {
-      "time": 47.390899,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Top"
     },
     {
       "time": 48.005102,
@@ -674,7 +620,7 @@
     },
     {
       "time": 50.495685,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
@@ -746,7 +692,7 @@
     },
     {
       "time": 57.243211,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Right"
     },
@@ -788,7 +734,7 @@
     },
     {
       "time": 61.855886,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
@@ -824,7 +770,7 @@
     },
     {
       "time": 64.708455,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Top"
     },
@@ -860,7 +806,7 @@
     },
     {
       "time": 68.21434,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
@@ -926,7 +872,7 @@
     },
     {
       "time": 75.40433,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Right"
     },
@@ -1010,7 +956,7 @@
     },
     {
       "time": 83.539318,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Right"
     },

@@ -224,7 +224,7 @@
     },
     {
       "time": 31.031662,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Top"
     },
@@ -308,7 +308,7 @@
     },
     {
       "time": 38.486475,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
@@ -326,22 +326,17 @@
     },
     {
       "time": 39.48006,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Right"
     },
     {
       "time": 39.48006,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Left"
     },
-    {
-      "time": 39.48006,
-      "locationX": "Right",
-      "locationY": "Bottom",
-      "hit": "Top"
-    },
+
     {
       "time": 40.156118,
       "locationX": "Right",
@@ -620,7 +615,7 @@
     },
     {
       "time": 79.400597,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Bottom"
     },

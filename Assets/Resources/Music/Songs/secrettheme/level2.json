@@ -146,7 +146,7 @@
     },
     {
       "time": 18.080078,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Left"
     },
@@ -164,13 +164,13 @@
     },
     {
       "time": 19.81632,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Left"
     },
     {
       "time": 19.81632,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
@@ -218,12 +218,6 @@
     },
     {
       "time": 24.565996,
-      "locationX": "Middle",
-      "locationY": "Bottom",
-      "hit": "Top"
-    },
-    {
-      "time": 24.565996,
       "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Bottom"
@@ -245,12 +239,6 @@
       "locationX": "Middle",
       "locationY": "Top",
       "hit": "Right"
-    },
-    {
-      "time": 26.939563,
-      "locationX": "Left",
-      "locationY": "Top",
-      "hit": "Left"
     },
     {
       "time": 27.804408,
@@ -512,7 +500,7 @@
     },
     {
       "time": 63.161171,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Top",
       "hit": "Left"
     },
@@ -572,7 +560,7 @@
     },
     {
       "time": 68.184212,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
     },

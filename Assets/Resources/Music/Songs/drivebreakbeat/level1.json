@@ -290,13 +290,13 @@
     },
     {
       "time": 47.365592,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Top",
       "hit": "Bottom"
     },
     {
       "time": 47.365592,
-      "locationX": "Middle",
+      "locationX": "Right",
       "locationY": "Bottom",
       "hit": "Bottom"
     },
@@ -356,7 +356,7 @@
     },
     {
       "time": 53.806014,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Left"
     },
@@ -470,7 +470,7 @@
     },
     {
       "time": 69.836508,
-      "locationX": "Middle",
+      "locationX": "Left",
       "locationY": "Bottom",
       "hit": "Top"
     },
