@@ -23,50 +23,30 @@ public class SlicingBehaviour : MonoBehaviour {
         audioSources = GetComponents<AudioSource>();
     }
 
-    private void Update()
-    {
-        bool hasHit = Physics.Raycast(_startSlicePoint.position, _endSlicePoint.position, out RaycastHit hit, _sliceLayer);
+    //private void Update()
+    //{
+    //    bool hasHit = Physics.Raycast(_startSlicePoint.position, _endSlicePoint.position, out RaycastHit hit, _sliceLayer);
 
-        if (hasHit)
-        {
-            Debug.Log("HUACALA" + hit.collider.gameObject.name);
-            if (hit.collider.CompareTag("CorrectHitbox"))
-            {
-                Debug.Log("HUACALA 1111" + hit.collider.gameObject.name);
+    //    if (hasHit)
+    //    {
+    //        Debug.Log("HUACALA" + hit.collider.gameObject.name);
+    //        if (hit.collider.CompareTag("CorrectHitbox"))
+    //        {
+    //            Debug.Log("HUACALA 1111" + hit.collider.gameObject.name);
 
-                CorrectSlice(hit.collider.gameObject);
-            }
-            else if(hit.collider.CompareTag("Box"))
-            {
+    //            CorrectSlice(hit.collider.gameObject);
+    //        }
+    //        else if(hit.collider.CompareTag("Box"))
+    //        {
 
-                Debug.Log("HUACALA 2222" + hit.collider.gameObject.name);
+    //            Debug.Log("HUACALA 2222" + hit.collider.gameObject.name);
 
-                WrongSlice(hit.collider.gameObject);
-            }
-        }
-    }
+    //            WrongSlice(hit.collider.gameObject);
+    //        }
+    //    }
+    //}
 
-    void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("COLLIDER" + other.gameObject.name);
-
-        if (other != null)
-        {
-            if (other.CompareTag("CorrectHitbox"))
-            {
-                Debug.Log("COLLIDER11111" + other.gameObject.name);
-
-                CorrectSlice(other.gameObject);
-            }
-            if (other.CompareTag("Box"))
-            {
-                Debug.Log("COLLIDER2222" + other.gameObject.name);
-
-                WrongSlice(other.gameObject);
-            }
-        }
-        OnHandsVibrating?.Invoke();
-    }
+    
 
     void OnCollisionEnter(Collision collision)
     {
@@ -119,19 +99,83 @@ public class SlicingBehaviour : MonoBehaviour {
 
     public void CorrectSlice(GameObject other)
     {
+        Debug.Log("CORRECT SLICE");
         Transform body = other.transform.parent.Find("Body");
         body.GetComponent<BoxCollider>().enabled = false;
         _scoreCanvas.SendMessage("IncreaseScore");
-        Slice(body.gameObject);
+        //Slice(body.gameObject);
         audioSources[0].Play();
     }
 
     public void WrongSlice(GameObject other)
     {
+        Debug.Log("WRONG SLICE");
         Transform correctHitbox = other.transform.parent.Find("CorrectHitbox");
         correctHitbox.GetComponent<BoxCollider>().enabled = false;
         _scoreCanvas.SendMessage("ResetCombo");
-        Slice(other.gameObject);
+      //  Slice(other.gameObject);
         audioSources[1].Play();
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("COLLIDER" + other.gameObject.name);
+
+        if (other != null)
+        {
+            if (other.CompareTag("Box"))
+            {
+                string requiredDirection = other.transform.parent.GetComponent<BoxBehaviour>().GetDirection();
+                GameObject cylinder = transform.Find("Cylinder").gameObject;
+                Debug.Log("Cylinder" + cylinder.name);
+                Vector3 playerVelocity = cylinder.GetComponent<Rigidbody>().velocity;
+                Debug.Log("PLAYER VELOCITY" + playerVelocity);
+                bool isCorrectDirection = CheckDirection(playerVelocity, requiredDirection);
+                Slice(other.gameObject);
+                if (isCorrectDirection)
+                {
+                    CorrectSlice(other.gameObject);
+                }
+                else
+                {
+                    WrongSlice(other.gameObject);
+                }
+            }
+        }
+
+            //if (other != null)
+            //{
+            //    if (other.CompareTag("CorrectHitbox"))
+            //    {
+            //        Debug.Log("COLLIDER11111" + other.gameObject.name);
+
+            //        CorrectSlice(other.gameObject);
+            //    }
+            //    if (other.CompareTag("Box"))
+            //    {
+            //        Debug.Log("COLLIDER2222" + other.gameObject.name);
+
+            //        WrongSlice(other.gameObject);
+            //    }
+            //}
+
+            OnHandsVibrating?.Invoke();
+    }
+
+    private bool CheckDirection(Vector3 playerVelocity, string requiredDirection)
+    {
+        switch (requiredDirection)
+        {
+            case "Top":
+                return playerVelocity.y < 0;
+            case "Bottom":
+                return playerVelocity.y > 0;
+            case "Left":
+                return playerVelocity.x > 0;
+            case "Right":
+                return playerVelocity.x < 0;
+            default:
+                return false;
+        }
     }
 }

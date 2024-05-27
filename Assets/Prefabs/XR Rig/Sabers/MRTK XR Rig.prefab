@@ -1614,6 +1614,7 @@ GameObject:
   - component: {fileID: 4876748480428037459}
   - component: {fileID: 6739076309709154125}
   - component: {fileID: 8967334729403232764}
+  - component: {fileID: 3269656363201886009}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -1686,6 +1687,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3269656363201886009
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228871744080929118}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1238630843934646298
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,6 +3820,10 @@ MonoBehaviour:
   _estimator: {fileID: 1100094581746391641}
   _startSlicePoint: {fileID: 5278412577838837340}
   _endSlicePoint: {fileID: 3220676023703835459}
+  _electricityParticle: {fileID: 0}
+  _sliceLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &2116222272826730551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5018,6 +5050,7 @@ GameObject:
   - component: {fileID: 6691991103807871120}
   - component: {fileID: 3413555350211718622}
   - component: {fileID: 9161711840025835852}
+  - component: {fileID: 1924363241042804253}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -5090,6 +5123,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1924363241042804253
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678183739306736648}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5749278781777616569
 GameObject:
   m_ObjectHideFlags: 0
@@ -5416,6 +5476,10 @@ MonoBehaviour:
   _estimator: {fileID: 8093994755194552794}
   _startSlicePoint: {fileID: 369261930009033185}
   _endSlicePoint: {fileID: 2034404324452026851}
+  _electricityParticle: {fileID: 0}
+  _sliceLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &5422851660406790692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5989,6 +6053,10 @@ MonoBehaviour:
   _estimator: {fileID: 6228982824531492668}
   _startSlicePoint: {fileID: 5502802705109003241}
   _endSlicePoint: {fileID: 2580639884041906749}
+  _electricityParticle: {fileID: 0}
+  _sliceLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &5813415364325648812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6369,6 +6437,10 @@ MonoBehaviour:
   _estimator: {fileID: 9170327564358479296}
   _startSlicePoint: {fileID: 5062447419102063203}
   _endSlicePoint: {fileID: 6715738162822977904}
+  _electricityParticle: {fileID: 0}
+  _sliceLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &996402972046300679
 BoxCollider:
   m_ObjectHideFlags: 0

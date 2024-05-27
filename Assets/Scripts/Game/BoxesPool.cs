@@ -90,6 +90,7 @@ public class BoxesPool : MonoBehaviour {
         int boxIndex = Random.Range(0, _boxPrefabs.Length);
 
         GameObject box = Instantiate(_boxPrefabs[boxIndex], spawnPosition, rotation);
+        box.GetComponent<BoxBehaviour>().SetDirection(beat.hit);
         box.transform.parent = transform;
 
         StartCoroutine(Rotate(box, hitArea));
